@@ -1,0 +1,71 @@
+.apply-here {
+    background-color: $body-bg;
+    height: 475px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: $white;
+    font-size: 30px;
+    line-height: 120%;
+    font-weight: 600;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        background: url(../images/allin-apply-here.svg) no-repeat;
+        bottom: -15px;
+        left: calc(50% - 72px);
+        width: 143px;
+        height: 130px;
+    }
+
+    &.container {
+        margin: 0 auto 50px;
+
+        @media (max-width: 980px) {
+            width: 100% !important;
+            margin: 0 auto 50px !important;
+        }
+
+        @media (max-width: 576px) {
+            padding: 0 25px;
+            box-sizing: border-box;
+        }
+    }
+
+    .strike {
+        position: relative;
+        display: inline-block;
+
+        #fp-06 {
+            top: 30px;
+            left: 0;
+            width: 100%;
+        }
+    }
+
+    h2 {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    a {
+        color: $secondary;
+        font-family: 'sharp_groteskSBdIt20';
+    }
+
+    .strike {
+        margin-bottom: 45px;
+
+        @media (max-width: 576px) {
+            margin-bottom: 67px;
+        }
+
+        &::before {
+            bottom: -18px;
+        }
+    }
+}

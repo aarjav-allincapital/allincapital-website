@@ -1,0 +1,191 @@
+.vcs-search-result-cards {
+    &.grid {
+        display: grid;
+        // max-height: 100vh;
+        // overflow-y: auto;
+        padding-right: 6px;
+        @include custom-scroll-mixin(2px);
+
+        // grid-template-columns: repeat(3, 1fr);
+        // grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 24px;
+        grid-row-gap: 16px;
+        grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    }
+
+    &.list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &.loading {
+        display: none !important;
+    }
+}
+
+
+.vc-card-1 {
+    // background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+
+    border: 1px solid rgba(22, 25, 34, 0.2);
+    border-radius: 24px;
+
+    .vc-pictures {
+        position: relative;
+        height: 300px;
+
+        .vc-profile-picture {
+            border-radius: 16px;
+            width: 100%;
+            // height: 300px;
+            height: 100%;
+            // object-fit: contain;
+            aspect-ratio: 1.45;
+        }
+
+        .vc-profile-picture-as-text {
+            height: 300px;
+            font-size: 2.5rem;
+            // disable selection
+            user-select: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: $fnf-bg-color;
+
+            span {
+                color: $allin-red;
+                line-height: 2.5rem;
+            }
+        }
+    }
+
+    .vc-name-and-socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+
+
+        .vc-name {
+            font-family: 'Matter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            height: 60px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+        }
+
+        .vc-socials {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            align-items: center;
+
+            i {
+                width: 32px;
+                height: 32px;
+
+                border: 1px solid #161922;
+                border-radius: 100%;
+
+                display: flex;
+                justify-content: center;
+
+                img {
+                    padding: 9px;
+                }
+
+            }
+        }
+    }
+
+    .vc-subinfo {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        p {
+            font-family: 'Matter';
+            font-style: normal;
+        }
+
+        position: relative;
+
+        .more-gradient {
+            position: absolute;
+            // position: sticky;
+            display: block;
+            bottom: 0;
+            right: 0;
+            width: 3%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+            pointer-events: none;
+        }
+
+        &-header {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            /* identical to box height */
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        &-value {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+
+            overflow-x: auto;
+            padding-bottom: 6px;
+            z-index: inherit;
+            position: relative;
+            @include custom-scroll-mixin(2px);
+            // hide scrollbar
+        }
+    }
+
+    // .fnf-gradient-border-wrap {
+    //     position: relative;
+    //     // background: red;
+    //     //linear-gradient(65.93deg, #39A3C8 11.77%, #873287 45.28%, #FF6E29 77.26%, #FFBC3F 100%);
+    //     padding: 1px;
+    //     border-radius: 40px;
+
+    // }
+
+    .fnf-view-details-button {
+        background: #ffffff;
+        width: 100%;
+        border-radius: 20px;
+        border: 1px solid $allin-red;
+        // padding: 0;
+        // height: 60px;
+
+        // border: 2px solid linear-gradient(65.93deg, #39A3C8 11.77%, #873287 45.28%, #FF6E29 77.26%, #FFBC3F 100%);
+
+        p {
+            font-family: 'Matter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            /* identical to box height, or 14px */
+
+            text-transform: uppercase;
+
+            /* gradient */
+
+            color: $allin-red;
+        }
+    }
+}

@@ -1,0 +1,107 @@
+#intro {
+    background-color: $primary;
+    border-radius: 25px;
+    margin-bottom: 50px;
+
+    @media (max-width: 768px) {
+		border-radius: 0;
+        margin-bottom: 0;
+	}
+
+    .container {
+        width: 600px;
+        color: $white;
+        padding: 150px 0;
+
+        @media (max-width: 768px) {
+            width: 100%;
+            padding: 235px 0 125px;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+
+        .p-group {
+            width: 450px;
+            text-align: center;
+            margin: 0 auto 100px;
+            position: relative;
+
+            @media (max-width: 768px) {
+                width: 67%;
+                margin: 0 auto 125px;
+            }
+
+            &:first-child {
+
+                &::before, &::after {
+                    content: '';
+                    position: absolute;
+                }
+
+                &::before {
+                    background: url(../images/intro-img-01.svg) no-repeat;
+                    width: 95px;
+                    height: 106px;
+                    top: -75px;
+                    left: -107px;
+
+                    @media (max-width: 768px) {
+                        left: -45px;
+                        top: -110px;
+                    }
+                }
+
+                &::after {
+                    background: url(../images/intro-img-02.svg) no-repeat;
+                    width: 89px;
+                    height: 65px;
+                    bottom: -75px;
+                    right: -93px;
+
+                    @media (max-width: 768px) {
+                        right: -25px;
+                        bottom: -90px;
+                    }
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+
+                &::before, &::after {
+                    content: '';
+                    position: absolute;
+                }
+
+                &::before {
+                    background: url(../images/intro-img-03.svg) no-repeat;
+                    width: 88px;
+                    height: 95px;
+                    top: -120px;
+                    left: -95px;
+
+                    @media (max-width: 768px) {
+                        left: -40px;
+                    }
+                }
+
+                &::after {
+                    background: url(../images/intro-img-04.svg) no-repeat;
+                    width: 80px;
+                    height: 67px;
+                    bottom: -60px;
+                    right: -108px;
+
+                    @media (max-width: 768px) {
+                        bottom: -80px;
+                        right: -15px;
+                    }
+                }
+            }
+        }
+    }
+}

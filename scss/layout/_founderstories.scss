@@ -1,0 +1,116 @@
+.founder-stories {
+    margin-bottom: 125px;
+
+    @media (max-width: 768px) { 
+        margin-bottom: 100px;
+    }
+
+    .container-small {
+        width: 900px;
+        margin: 0 auto;
+
+        @media (max-width: 1100px) { 
+            overflow: hidden;
+        }
+
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 50px;
+
+        @media (max-width: 576px) { 
+            br {
+                display: none;
+            }
+        }
+    }
+
+    &-cards {    
+        @media (max-width: 1100px) { 
+            overflow: hidden;
+        }
+
+        .owl-stage {
+            display: flex;
+        }
+
+        .owl-item {
+            display: flex;
+            flex: 1 0 auto;
+        }
+
+        .founder-card {
+            background-color: $light-gray;
+            border: 2px solid transparent;
+            border-radius: 25px;
+            padding: 15px;
+            margin-bottom: 30px;
+            color: $primary;
+            transition: all 1s ease;  
+            width: 200px;
+            box-sizing: border-box;
+            display: flex;
+            
+            &:hover {
+                border: 2px solid $secondary;
+                background-color: $white;
+
+                p {
+                    text-decoration: underline;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            img {
+                margin-bottom: 15px;
+                max-width: initial;
+                overflow: hidden;
+                border-radius: 15px;
+            }
+
+            h4 {
+                color: $secondary;
+            }
+
+            p {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .owl-item {
+        &:nth-child(odd) {
+            margin-bottom: 20px;
+        }
+
+        &:nth-child(even) {
+            margin-top: 20px;
+        }
+    }
+
+    .all-stories {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.home-bg, .founder-story-page {
+    .founder-stories {
+ 
+        @media (max-width: 768px) { 
+            position: relative;
+            left: -15px;
+        }
+
+        h2 {
+            @media (max-width: 768px) { 
+                position: relative;
+                left: 15px;
+            }
+        }
+    }
+}

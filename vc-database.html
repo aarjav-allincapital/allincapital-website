@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description"
+        content="We are a new kind of VC fund that functions as a network of founders and provide more than just funding. We back the next generation of founders going All-In.">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ff534f">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+
+    <link rel="stylesheet" href="css/allstars_fonts.css" />
+    <link rel="stylesheet" href="css/fnf.css" />
+    <link rel="stylesheet" href="css/double_slider.css" />
+    <link rel="stylesheet" href="css/allstars_search_bar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Investor Network | All In Capital </title>
+</head>
+
+<body class="fnf-body" id="fnf-body">
+    <main-content>
+        <div class="fnf-loading fnf-view active " id="fnf-loading-view">
+            <img src="images/logo.gif" alt="All In" class="loader-logo" />
+        </div>
+        <div class="fnf-auth" id="fnf-auth-view">
+
+        </div>
+
+        <div class="fnf-logged-in" id="fnf-logged-in-view">
+            <div class="wrapper">
+                <header class="fnf-page-header page-header " id="navbar">
+                    <div class="container">
+                        <a href="#" class="btn btn-secondary main-menu">
+                            <div class="marquee__inner" aria-hidden="true">
+                                <span>Menu</span>
+                                <span>Menu</span>
+                                <span>Menu</span>
+                                <span>Menu</span>
+                            </div>
+                        </a>
+                        <a href="#" class="btn btn-secondary close-menu">
+                            <div class="marquee__inner" aria-hidden="true">
+                                <span>Close</span>
+                                <span>Close</span>
+                                <span>Close</span>
+                                <span>Close</span>
+                            </div>
+                        </a>
+                        <a href="/" class="allin-header-logo header-logo">
+                            <img src="images/logo.gif" alt="All In" class="logo allin-logo" />
+                        </a>
+                        <button class="btn btn-primary apply fnf-apply" id="logout-button">
+                            <div class="marquee__inner" aria-hidden="true">
+                                <span>Logout</span>
+                                <span>Logout</span>
+                                <span>Logout</span>
+                                <span>Logout</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="menu">
+                        <div class="menu" style="padding-top: 120px;">
+                            <ul class="main-links">
+                                <li><a href="portfolio">Portfolio</a></li>
+                                <li><a href="https://allindiacapital.substack.com/" target="_blank">Blog</a></li>
+                                <li><a href="apply_now#faqs">FAQs</a></li>
+                                <!--<li><a href="allstars">AllStars</a></li>-->
+                                <li><a href="allstars">AllStars</a></li>
+                            </ul>
+                            <ul class="social-icons">
+                                <li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y="
+                                        target="_blank"><img src="images/icon-instagram.svg" alt="" /></a></li>
+                                <li><a href="https://twitter.com/All_IN_Capital" target="_blank"><img
+                                            src="images/icon-twitter.svg" alt="" /></a></li>
+                                <li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank"><img
+                                            src="images/icon-linkedin.svg" alt="" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div class="content">
+                <div class="fnf__hero">
+                    <section class="container">
+                        <div class="banner-content">
+                            <section class="container fnf__hero__content">
+                                <!-- <div class="fnf__hero__content__logo">
+                                    <img src="images/allstars/fnf_fulllogo.svg" alt="">
+                                </div> -->
+                                <div class="fnf__hero__content__copy">
+                                    <h1>
+                                        Investor Network
+                                    </h1>
+                                </div>
+
+                                <!-- <img src="images/arrow.png" alt="" class="arrow-move" /> -->
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <main class="fnf-main-content main-content">
+                    <div class="search-result-info search-result-info__mobile">
+                        <span></span>
+                        <div class="show-filters">
+                            <button id="toggle-filters-button">Filters</button>
+                        </div>
+                    </div>
+                    <div class="fnf-vcs-list-view fnf-view">
+                        <div class="mobile-filters-background"></div>
+                        <div class="fnf-filters filters-container-abs" id="filters-container">
+                            <div class="filters-title">
+                                <div>Filters</div>
+                                <div class="close-filters-button" id="close-filters-button">
+                                    <img src="images/allstars/close-icon-black.svg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="fnf-filter" id="cheque-size-holder">
+                                <div class="fnf-filter-header">
+                                    <label class="form-label" for="id_first_cheque_minimum_size" id="cheque-size-label">
+                                        CHEQUE SIZE: -
+                                    </label>
+                                </div>
+                                <div class="fnf-filter-body">
+                                    <div class="fnf-cheque-slider">
+                                        <div slider="" id="slider-distance">
+                                            <div>
+                                                <div id="bg-inverse-left" inverse-left="" style="width: 21.7948%;">
+                                                </div>
+                                                <div id="bg-inverse-right" inverse-right="" style="width: 60.6968%;">
+                                                </div>
+                                                <div id="fg-middle-range" range=""
+                                                    style="left: 21.7948%; right: 60.6968%;">
+                                                </div>
+                                                <span id="left-slider-thumb" thumb="" style="left: 21.7948%;"></span>
+                                                <span id="right-slider-thumb" thumb="" style="left: 39.3032%;"></span>
+                                                <div id="left-slider-sign" sign="" style="left: 21.7948%;">
+                                                    <span id="left-slider-value">43589586</span>
+                                                </div>
+                                                <div id="right-slider-sign" sign="" style="left: 39.3032%;">
+                                                    <span id="right-slider-value">78606338</span>
+                                                </div>
+                                            </div>
+                                            <input type="range" tabindex="0" value="0" max="200000000" min="0" step="1"
+                                                id="id_first_cheque_minimum_size" name="first_cheque_minimum_size">
+                                            <input type="range" tabindex="0" value="200000000" max="200000000" min="0"
+                                                step="1" id="id_first_cheque_maximum_size"
+                                                name="first_cheque_maximum_size">
+                                        </div>
+                                        <div class="fnf-cheque-range">
+                                            <span id="cheque-min-range">$0</span>
+                                            <span id="cheque-max-range">$20M</span>
+                                        </div>
+                                    </div>
+                                    <div class="apply-cheque-slider" id="apply-cheque-slider">
+                                        APPLY
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fnf-filter">
+                                <div class="fnf-filter-header accordion">
+                                    <label class="form-label">
+                                        Stages of Investment
+                                    </label>
+                                    <div class="clear-filter" id="clear-stages-of-investment">Clear</div>
+                                </div>
+                                <div class="fnf-filter-body panel">
+                                    <ul class="unstyled centered fnf-fund-tags" id="stages-of-investment">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="fnf-filter">
+                                <div class="fnf-filter-header accordion">
+                                    <label class="form-label" for="fund-types">
+                                        Fund Type
+                                    </label>
+                                    <div class="clear-filter" id="clear-fund-types">Clear</div>
+                                </div>
+                                <div class="fnf-filter-body panel">
+                                    <ul class="unstyled centered fnf-fund-tags" id="fund-types">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="fnf-filter">
+                                <div class="fnf-filter-header accordion">
+                                    <label class="form-label" for="sectors-of-interest">
+                                        SECTORS OF INTEREST
+                                    </label>
+                                    <div class="clear-filter" id="clear-sectors-of-interest">Clear</div>
+                                </div>
+                                <div class="fnf-filter-body panel">
+                                    <ul class="unstyled centered fnf-fund-tags" id="sectors-of-interest">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="fnf-filter">
+                                <div class="fnf-filter-header accordion">
+                                    <label class="form-label" for="types-of-financing">
+                                        Types of Financing
+                                    </label>
+                                    <div class="clear-filter" id="clear-types-of-financing">Clear</div>
+                                </div>
+                                <div class="fnf-filter-body panel">
+                                    <ul class="unstyled centered fnf-fund-tags" id="types-of-financing">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="fnf-filter">
+                                <div class="fnf-filter-header accordion">
+                                    <label class="form-label" for="allin-connect">
+                                        Within Allin network
+                                    </label>
+                                </div>
+                                <div class="fnf-filter-body panel">
+                                    <ul class="unstyled centered fnf-fund-tags" id="allin-connect">
+                                        <!-- <li>
+                                            <input class="styled-checkbox" id="allin_connect-all" type="checkbox"
+                                                value="none" name="allin_connect">
+                                            <label for="allin_connect">
+                                                <span>All</span>
+                                            </label>
+                                        </li> -->
+                                        <li>
+                                            <input class="styled-checkbox" id="allin_connect-yes" type="checkbox"
+                                                value="true" name="allin_connect">
+                                            <label for="allin_connect-yes">
+                                                <span>Yes</span>
+                                            </label>
+                                        </li>
+                                        <!-- <li>
+                                            <input class="styled-checkbox" id="allin_connect-no" type="checkbox"
+                                                value="false" name="allin_connect">
+                                            <label for="allin_connect-no">
+                                                <span>No</span>
+                                            </label>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fnf-vcs-list">
+                            <div class="fnf-vcs-list-inner">
+                                <div class="search-bar">
+                                    <div class="search-input-wrapper">
+                                        <div class="blur-bg"></div>
+                                        <input class="search-input" type="text" placeholder='Search by Fund Name'>
+                                        <i class="search-input-icon fa fa-search"></i>
+                                        </input>
+                                    </div>
+                                </div>
+                                <div id="vclist-loader" class="vclist-loader">
+                                    <img src="images/logo.gif" alt="All In" class="loader-logo" />
+                                    <!-- <div class="loader-text">Loading...</div> -->
+                                    <!-- <div class="logo large fnf_logo_large">
+                                    <img src="images/logo.gif" alt="All In" class="logo allin-fnf-logo" />
+                                    <img src="images/allstars/fnf_logo.svg" alt="All In" class="logo large" />
+                                </div> -->
+                                </div>
+                                <div class="search-result-info search-result-info__desktop">
+                                    <span></span>
+                                </div>
+                                <div class="vcs-search-result-cards" id="vc-search-result-card-holder"
+                                    style="display:grid">
+                                </div>
+                                <div class="pagination" id="vc-list-view-paginator">
+                                    <div class="infinite-scroll-loader" id="infinite-scroll-loader">
+                                        <img src="images/allstars/three-dots.svg" alt="All In" class="loader-logo" />
+                                    </div>
+                                    <ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="fnf-footer">
+                    <div class="apply-here container image-up">
+                        <img src="images/allin-apply-here.svg" alt="">
+                        <h2>Let’s go all in together.</h2>
+                        <!-- <a href="apply_now" class="strike">Apply here<div id="fp-06" class="lottie-imgs"> </div> -->
+                    </div>
+
+                    <div class="container">
+                        <ul class="social-icons">
+                            <li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                                        src="images/icon-instagram.svg" alt="" /></a></li>
+                            <li><a href="https://twitter.com/All_IN_Capital" target="_blank"><img
+                                        src="images/icon-twitter.svg" alt="" /></a></li>
+                            <li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank"><img
+                                        src="images/icon-linkedin.svg" alt="" /></a></li>
+                        </ul>
+                        <p>&copy; Copyright 2022, Allin Capital LLC</p>
+                    </div>
+                </footer>
+            </div>
+
+            <div class="fnf__modal" id="modal-overlay">
+                <div id="vc-card-modal-dynamic">
+                    <div class="vc-card-modal-popup">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main-content>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/lottie.min.js"></script>
+    <script src="js/common.js"></script>
+    <!-- <script src="js/fnf/double_slider.js"></script> -->
+    <script src="js/build/fnf.js?v=10" type="module"></script>
+</body>
+
+</html>

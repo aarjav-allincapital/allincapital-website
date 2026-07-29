@@ -1,0 +1,73 @@
+.banner {
+    width: 770px;
+    margin: 0 auto;
+    text-align: center;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    @media (max-width: 980px) { 
+        width: calc(100% - 50px);
+        margin: 0 25px;
+    }
+
+    .logo {
+        width: 111px;
+    }
+
+    .large {
+        width: 296px;
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 100vh;
+    }
+
+    h1 {
+        margin-bottom: 127px;
+        margin-top: 10px;
+
+        span {
+            color: $secondary;
+            font-style: italic;
+            position: relative;
+            display: inline-block;
+
+            #fp-05 {
+                top: 25px;
+                left: 0;
+                width: 100%;
+            }
+
+            // &.strike {            
+            //     &::before {
+            //         width: 115px;
+            //         height: 11px;
+            //         background: url(../images/strike-line-mobile.svg) no-repeat;
+            //         bottom: -5px;
+            //     }
+            // }
+        }
+    }
+
+    img.arrow-move {
+        cursor: pointer;
+        -webkit-animation: mover 1s infinite  alternate;
+        animation: mover 1s infinite  alternate;
+    }
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}

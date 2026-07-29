@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+
+.fnf-auth {
+    display: none;
+
+    &.active {
+        display: flex;
+    }
+}
+
+.fnf-logged-in {
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}
+
+.fnf-loading {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+    img {
+        width: 300px;
+    }
+
+    &.active {
+        display: flex;
+    }
+}
+
+
+
+@import '../fonts';
+@import "../variables";
+@import "../buttons";
+@import "../reset";
+
+@import '../helpers';
+
+@import '../layout/header';
+@import '../layout/banner';
+@import '../layout/footer';
+@import '../layout/applyhere';
+@import '../layout/popup';
+
+@import '../layout';
+@import '../buttons';
+@import '../filters-checkbox';
+
+@import '../animations/animations';
+
+// @import '../pages/apply-now';
+
+@import "login";
+@import "logged_in";
+@import "vc-card";
+@import "footer";
+@import "../common_fnf_allstars"

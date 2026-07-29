@@ -1,0 +1,834 @@
+{
+    "page": 1,
+    "page_size": 9,
+    "pages": 12,
+    "links": {
+        "next": "http://localhost:8000/allstars/api/v2/allin/angels?maximum_cheque_size=9867582&minimum_cheque_size=103151&page=2&page_size=9",
+        "previous": null
+    },
+    "count": 100,
+    "results": [
+        {
+            "id": 3,
+            "name": "Jayne Spain",
+            "designation": "Technical Writer",
+            "company": "Buzzdog",
+            "company_picture": "https://picsum.photos/seed/300/256",
+            "profile_picture": "https://picsum.photos/seed/3/512/425",
+            "expertise": [
+                {
+                    "id": 10,
+                    "value": "Data Science"
+                },
+                {
+                    "id": 8,
+                    "value": "Fund Raising"
+                },
+                {
+                    "id": 11,
+                    "value": "Hardware"
+                },
+                {
+                    "id": 5,
+                    "value": "Org Design"
+                },
+                {
+                    "id": 4,
+                    "value": "Product Design"
+                },
+                {
+                    "id": 7,
+                    "value": "SAAS GTM"
+                },
+                {
+                    "id": 1,
+                    "value": "Technology"
+                }
+            ],
+            "locations": [
+                {
+                    "id": 19,
+                    "value": "Dubai"
+                },
+                {
+                    "id": 1,
+                    "value": "Mumbai"
+                },
+                {
+                    "id": 9,
+                    "value": "New York"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 10,
+                    "value": "Deep Tech"
+                },
+                {
+                    "id": 2,
+                    "value": "Dev-Tools"
+                },
+                {
+                    "id": 5,
+                    "value": "EdTech"
+                },
+                {
+                    "id": 8,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 1,
+                    "value": "SAAS"
+                }
+            ],
+            "bio": "Modi porro ut adipisci porro modi. Eius numquam velit velit velit. Velit quiquia magnam quaerat magnam ipsum voluptatem quisquam. Aliquam tempora consectetur neque sit dolorem consectetur. Sit dolor porro numquam non. Quaerat voluptatem ut amet. Neque porro dolore sit.Ut modi ipsum neque porro. Magnam velit eius etincidunt quisquam consectetur magnam. Consectetur modi est aliquam neque dolorem aliquam aliquam. Adipisci dolorem labore amet dolore. Modi non neque etincidunt eius. Quaerat labore aliquam aliquam amet etincidunt. Ipsum aliquam adipisci sed aliquam consectetur sed. Etincidunt quisquam sed quisquam sit.Voluptatem labore est ut est velit. Dolorem sit sit dolor amet. Voluptatem est quaerat dolore ipsum voluptatem. Voluptatem consectetur amet sed est neque etincidunt quiquia. Sed quisquam dolore consectetur non etincidunt est.",
+            "past_companies": [
+                "Refyne"
+            ],
+            "alma_mater": "Malaviya National Institute of Technology, Jaipur",
+            "linkedin_url": "https://linkedin.com/in/jayne-spain",
+            "twitter_url": "https://twitter.com/jayne-spain",
+            "past_investments": [
+                "Appsmith",
+                "Intello Labs"
+            ],
+            "first_cheque_minimum_size": 560376,
+            "first_cheque_maximum_size": 1275892,
+            "affliated_funds": []
+        },
+        {
+            "id": 4,
+            "name": "Aliza Pulteneye",
+            "designation": "Help Desk Operator",
+            "company": "Wikido",
+            "company_picture": "https://picsum.photos/seed/400/256",
+            "profile_picture": "https://picsum.photos/seed/4/512/425",
+            "expertise": [
+                {
+                    "id": 11,
+                    "value": "Hardware"
+                }
+            ],
+            "locations": [
+                {
+                    "id": 2,
+                    "value": "Bengaluru"
+                },
+                {
+                    "id": 17,
+                    "value": "Jakarta"
+                },
+                {
+                    "id": 5,
+                    "value": "Pune"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 8,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 3,
+                    "value": "India Consumer Internet"
+                }
+            ],
+            "bio": "Dolorem est dolore neque sit. Ut voluptatem dolorem adipisci. Velit voluptatem aliquam modi labore dolor quisquam tempora. Amet velit tempora neque sed quaerat ipsum. Labore tempora ut consectetur adipisci. Labore tempora labore ipsum adipisci. Consectetur porro ipsum sit voluptatem consectetur sit. Quaerat sed porro neque velit consectetur neque. Dolor adipisci labore adipisci sit adipisci etincidunt labore.Adipisci labore amet labore dolorem. Neque quaerat voluptatem etincidunt sed ipsum labore neque. Labore porro eius eius consectetur non. Velit ut quiquia quisquam ipsum. Voluptatem etincidunt sit adipisci.Voluptatem sit quisquam sed etincidunt non non sit. Consectetur aliquam quiquia sed dolore non dolor sed. Eius eius ut aliquam adipisci sit adipisci amet. Non quiquia est est tempora. Eius consectetur sed aliquam aliquam modi ipsum. Tempora quiquia magnam dolorem magnam velit. Velit quisquam dolorem sit amet dolor magnam.Porro tempora ut sit sit modi. Ut etincidunt magnam consectetur etincidunt quaerat. Voluptatem sit est sit magnam ut. Sit amet adipisci labore neque aliquam. Amet consectetur sit labore modi dolore dolore aliquam. Sed sit sit etincidunt quisquam. Labore labore aliquam quisquam non.",
+            "past_companies": [
+                "CheQ Digital"
+            ],
+            "alma_mater": "Narsee Monjee Institute of Management and Higher Studies",
+            "linkedin_url": "https://linkedin.com/in/aliza-pulteneye",
+            "twitter_url": "https://twitter.com/aliza-pulteneye",
+            "past_investments": [
+                "Jiraaf",
+                "PhysicsWallah",
+                "Soothe Health",
+                "Junio",
+                "Betterhalf",
+                "Zamp Finance"
+            ],
+            "first_cheque_minimum_size": 703557,
+            "first_cheque_maximum_size": 7130066,
+            "affliated_funds": []
+        },
+        {
+            "id": 5,
+            "name": "Alberta Jedrysik",
+            "designation": "Recruiter",
+            "company": "Bluejam",
+            "company_picture": "https://picsum.photos/seed/500/256",
+            "profile_picture": "https://picsum.photos/seed/5/512/425",
+            "expertise": [
+                {
+                    "id": 2,
+                    "value": "Consumer Growth"
+                },
+                {
+                    "id": 9,
+                    "value": "Strategy"
+                }
+            ],
+            "locations": [
+                {
+                    "id": 12,
+                    "value": "Berlin"
+                },
+                {
+                    "id": 3,
+                    "value": "Delhi/NCR"
+                },
+                {
+                    "id": 18,
+                    "value": "London"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 4,
+                    "value": "D2C Brands"
+                },
+                {
+                    "id": 10,
+                    "value": "Deep Tech"
+                },
+                {
+                    "id": 2,
+                    "value": "Dev-Tools"
+                },
+                {
+                    "id": 9,
+                    "value": "Ecommerce"
+                },
+                {
+                    "id": 6,
+                    "value": "FinTech"
+                },
+                {
+                    "id": 8,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 11,
+                    "value": "HealthCare"
+                },
+                {
+                    "id": 3,
+                    "value": "India Consumer Internet"
+                },
+                {
+                    "id": 1,
+                    "value": "SAAS"
+                }
+            ],
+            "bio": "Etincidunt dolorem amet amet porro neque. Consectetur est velit etincidunt voluptatem. Quisquam non dolorem neque quiquia quiquia neque. Quisquam porro dolore neque. Aliquam quaerat quiquia numquam ipsum etincidunt porro quaerat. Porro quisquam consectetur quiquia numquam non. Sit voluptatem ipsum labore est labore ut amet. Ut magnam sed non tempora. Velit numquam neque sed dolore ut.Ipsum amet labore consectetur non modi. Voluptatem amet tempora modi non adipisci magnam porro. Consectetur quiquia quiquia velit amet labore aliquam. Consectetur quisquam porro eius. Eius dolore sit quaerat amet amet. Ut tempora eius tempora amet. Sed tempora sit numquam adipisci. Adipisci modi eius labore sed.Sed porro dolore sit quisquam non modi. Voluptatem voluptatem modi velit ut. Dolor aliquam quiquia etincidunt magnam sed dolore labore. Ipsum modi ut ipsum porro tempora consectetur quaerat. Consectetur quaerat est sed quisquam adipisci voluptatem dolore. Quiquia sed magnam numquam labore. Est numquam sit aliquam adipisci porro. Ipsum voluptatem magnam quiquia aliquam voluptatem porro. Dolor numquam sit tempora non sed.Eius non amet porro dolorem est velit quiquia. Modi neque ut aliquam quisquam sed voluptatem numquam. Consectetur porro quiquia non. Ipsum modi aliquam dolore numquam dolor amet. Consectetur porro dolorem sit velit amet eius magnam. Dolorem porro numquam dolor. Velit amet voluptatem amet dolor voluptatem dolor numquam. Dolore neque magnam non ut. Numquam modi voluptatem adipisci labore dolorem quaerat.Consectetur quiquia magnam eius. Quiquia etincidunt porro porro ipsum. Labore neque quiquia labore tempora voluptatem quaerat numquam. Ut quisquam velit eius amet sit. Etincidunt dolor numquam magnam quiquia.Non sit consectetur voluptatem velit modi velit magnam. Quisquam est velit aliquam etincidunt dolore tempora ut. Ipsum etincidunt voluptatem ut. Consectetur dolorem dolor dolorem dolore magnam ut magnam. Etincidunt sed neque ut dolor ipsum ipsum. Est quisquam quisquam sit modi sit. Porro modi est amet neque modi est tempora. Quisquam dolorem quisquam labore quaerat porro. Sed neque sed consectetur dolor ut. Consectetur consectetur porro quiquia.",
+            "past_companies": [
+                "Oxyzo Financial Services"
+            ],
+            "alma_mater": "Madurai Kamaraj University",
+            "linkedin_url": "https://linkedin.com/in/alberta-jedrysik",
+            "twitter_url": "https://twitter.com/alberta-jedrysik",
+            "past_investments": [
+                "Blue Tribe Foods",
+                "Jiraaf",
+                "Ed-a-Mamma",
+                "Solar Square"
+            ],
+            "first_cheque_minimum_size": 602435,
+            "first_cheque_maximum_size": 6114278,
+            "affliated_funds": []
+        },
+        {
+            "id": 6,
+            "name": "Aylmar Lambden",
+            "designation": "Civil Engineer",
+            "company": "Twiyo",
+            "company_picture": "https://picsum.photos/seed/600/256",
+            "profile_picture": "https://picsum.photos/seed/6/512/425",
+            "expertise": [
+                {
+                    "id": 3,
+                    "value": "B2B Growth"
+                },
+                {
+                    "id": 4,
+                    "value": "Product Design"
+                },
+                {
+                    "id": 7,
+                    "value": "SAAS GTM"
+                },
+                {
+                    "id": 6,
+                    "value": "Sales"
+                },
+                {
+                    "id": 9,
+                    "value": "Strategy"
+                },
+                {
+                    "id": 1,
+                    "value": "Technology"
+                }
+            ],
+            "locations": [
+                {
+                    "id": 12,
+                    "value": "Berlin"
+                },
+                {
+                    "id": 8,
+                    "value": "San Francisco"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 4,
+                    "value": "D2C Brands"
+                },
+                {
+                    "id": 10,
+                    "value": "Deep Tech"
+                },
+                {
+                    "id": 2,
+                    "value": "Dev-Tools"
+                },
+                {
+                    "id": 9,
+                    "value": "Ecommerce"
+                },
+                {
+                    "id": 5,
+                    "value": "EdTech"
+                },
+                {
+                    "id": 6,
+                    "value": "FinTech"
+                },
+                {
+                    "id": 8,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 11,
+                    "value": "HealthCare"
+                },
+                {
+                    "id": 3,
+                    "value": "India Consumer Internet"
+                },
+                {
+                    "id": 1,
+                    "value": "SAAS"
+                },
+                {
+                    "id": 7,
+                    "value": "Web3"
+                }
+            ],
+            "bio": "Ipsum labore velit dolore dolor voluptatem. Ut quaerat velit adipisci sit. Dolorem quaerat labore dolore dolorem numquam. Ipsum consectetur velit quiquia velit non. Modi consectetur neque sed. Numquam quisquam numquam amet quisquam velit sed. Velit etincidunt est consectetur sed porro adipisci.Quiquia voluptatem est dolorem magnam voluptatem. Aliquam neque dolor non dolor modi. Amet quaerat porro quaerat sit. Eius tempora ipsum velit quaerat quiquia. Voluptatem aliquam magnam quiquia sed dolorem.Porro dolor velit neque. Etincidunt labore adipisci eius etincidunt dolor. Quisquam non dolorem voluptatem sit sit. Quisquam numquam dolor dolor sit sit etincidunt ipsum. Dolorem dolore quisquam dolorem velit labore aliquam. Aliquam quisquam sit quiquia velit numquam amet.Amet modi sit quisquam. Ipsum magnam velit est ipsum quiquia sed dolore. Ut voluptatem consectetur quaerat quisquam. Consectetur etincidunt consectetur magnam. Est quaerat labore sed. Voluptatem est dolore dolore.Quaerat velit dolore eius dolore. Voluptatem sed adipisci dolor sit dolor. Quiquia tempora velit est amet velit. Neque ipsum voluptatem quaerat neque. Porro porro modi adipisci. Magnam porro voluptatem neque quiquia est quaerat consectetur. Adipisci numquam est est voluptatem neque labore. Eius amet tempora dolor quaerat dolor neque labore.Aliquam velit eius magnam quisquam est quiquia tempora. Dolorem porro dolorem neque magnam. Eius est amet numquam voluptatem modi. Neque velit quiquia adipisci quaerat modi dolor. Labore quisquam quaerat aliquam dolore quiquia dolore amet. Quiquia modi tempora neque ut. Neque sit dolore amet non neque. Magnam velit quiquia porro dolore ipsum modi dolore. Voluptatem etincidunt quaerat neque quiquia dolorem dolor.",
+            "past_companies": [
+                "Recykal",
+                "BharatAgri"
+            ],
+            "alma_mater": "National Institute of Technology Calicut",
+            "linkedin_url": "https://linkedin.com/in/aylmar-lambden",
+            "twitter_url": "https://twitter.com/aylmar-lambden",
+            "past_investments": [
+                "Mojocare",
+                "Queuebuster",
+                "Centricity Wealth",
+                "82E",
+                "BlissClub",
+                "Solar Square"
+            ],
+            "first_cheque_minimum_size": 296986,
+            "first_cheque_maximum_size": 1918706,
+            "affliated_funds": []
+        },
+        {
+            "id": 7,
+            "name": "Rosemonde Bhar",
+            "designation": "Sales Representative",
+            "company": "Aivee",
+            "company_picture": "https://picsum.photos/seed/700/256",
+            "profile_picture": "https://picsum.photos/seed/7/512/425",
+            "expertise": [
+                {
+                    "id": 3,
+                    "value": "B2B Growth"
+                },
+                {
+                    "id": 2,
+                    "value": "Consumer Growth"
+                },
+                {
+                    "id": 10,
+                    "value": "Data Science"
+                },
+                {
+                    "id": 8,
+                    "value": "Fund Raising"
+                },
+                {
+                    "id": 11,
+                    "value": "Hardware"
+                },
+                {
+                    "id": 5,
+                    "value": "Org Design"
+                },
+                {
+                    "id": 4,
+                    "value": "Product Design"
+                },
+                {
+                    "id": 7,
+                    "value": "SAAS GTM"
+                },
+                {
+                    "id": 9,
+                    "value": "Strategy"
+                },
+                {
+                    "id": 1,
+                    "value": "Technology"
+                }
+            ],
+            "locations": [
+                {
+                    "id": 18,
+                    "value": "London"
+                },
+                {
+                    "id": 5,
+                    "value": "Pune"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 4,
+                    "value": "D2C Brands"
+                },
+                {
+                    "id": 10,
+                    "value": "Deep Tech"
+                },
+                {
+                    "id": 2,
+                    "value": "Dev-Tools"
+                },
+                {
+                    "id": 9,
+                    "value": "Ecommerce"
+                },
+                {
+                    "id": 5,
+                    "value": "EdTech"
+                },
+                {
+                    "id": 6,
+                    "value": "FinTech"
+                },
+                {
+                    "id": 8,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 11,
+                    "value": "HealthCare"
+                },
+                {
+                    "id": 3,
+                    "value": "India Consumer Internet"
+                },
+                {
+                    "id": 1,
+                    "value": "SAAS"
+                },
+                {
+                    "id": 7,
+                    "value": "Web3"
+                }
+            ],
+            "bio": "Quaerat dolore modi consectetur non est sed. Dolor porro etincidunt non est. Etincidunt modi ipsum ut sit etincidunt aliquam etincidunt. Porro porro dolore non voluptatem. Etincidunt est amet sed tempora porro eius. Quaerat quisquam est modi sed labore consectetur. Dolor magnam etincidunt quisquam. Numquam non non est sed numquam.Quaerat eius dolore eius ut. Ut eius non porro tempora. Non voluptatem velit amet velit est velit. Voluptatem ut voluptatem tempora aliquam quiquia voluptatem. Modi etincidunt sed quaerat. Aliquam consectetur adipisci non tempora sit. Tempora aliquam ipsum velit ut modi quisquam modi. Adipisci labore eius sed dolor dolor adipisci. Eius magnam voluptatem labore numquam quaerat. Porro porro dolorem sit dolore neque neque dolore.Porro adipisci magnam non sed magnam. Amet est magnam quiquia etincidunt porro non voluptatem. Sed sit sit consectetur dolor porro neque eius. Dolore dolor magnam porro sit consectetur modi dolor. Magnam etincidunt etincidunt eius consectetur. Quaerat sit etincidunt sit modi ipsum sed. Amet non sit tempora ut.Dolor quaerat ipsum labore quaerat. Quaerat dolor voluptatem dolore quisquam quiquia. Aliquam dolor eius quaerat velit labore dolorem numquam. Quiquia labore voluptatem labore ipsum quisquam est quiquia. Consectetur neque quiquia adipisci modi. Eius est eius dolor consectetur sed.Non adipisci velit quaerat dolor dolor consectetur. Amet labore quaerat sit non quaerat tempora. Numquam adipisci etincidunt numquam dolor numquam. Tempora porro velit tempora magnam dolorem. Dolorem adipisci consectetur amet non quiquia tempora etincidunt. Non tempora quaerat voluptatem.",
+            "past_companies": [
+                "EVage"
+            ],
+            "alma_mater": "Kurukshetra University",
+            "linkedin_url": "https://linkedin.com/in/rosemonde-bhar",
+            "twitter_url": "https://twitter.com/rosemonde-bhar",
+            "past_investments": [
+                "Zamp Finance",
+                "myMUSE",
+                "Jiraaf",
+                "Jodo",
+                "Artium Academy",
+                "Mojocare",
+                "GreedyGame"
+            ],
+            "first_cheque_minimum_size": 107164,
+            "first_cheque_maximum_size": 1865623,
+            "affliated_funds": []
+        },
+        {
+            "id": 8,
+            "name": "Onofredo Cornfield",
+            "designation": "Civil Engineer",
+            "company": "Devpoint",
+            "company_picture": "https://picsum.photos/seed/800/256",
+            "profile_picture": "https://picsum.photos/seed/8/512/425",
+            "expertise": [
+                {
+                    "id": 11,
+                    "value": "Hardware"
+                },
+                {
+                    "id": 5,
+                    "value": "Org Design"
+                },
+                {
+                    "id": 4,
+                    "value": "Product Design"
+                },
+                {
+                    "id": 9,
+                    "value": "Strategy"
+                },
+                {
+                    "id": 1,
+                    "value": "Technology"
+                }
+            ],
+            "locations": [
+                {
+                    "id": 11,
+                    "value": "Dallas"
+                },
+                {
+                    "id": 15,
+                    "value": "Goa"
+                },
+                {
+                    "id": 1,
+                    "value": "Mumbai"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 4,
+                    "value": "D2C Brands"
+                },
+                {
+                    "id": 10,
+                    "value": "Deep Tech"
+                },
+                {
+                    "id": 2,
+                    "value": "Dev-Tools"
+                },
+                {
+                    "id": 5,
+                    "value": "EdTech"
+                },
+                {
+                    "id": 6,
+                    "value": "FinTech"
+                },
+                {
+                    "id": 11,
+                    "value": "HealthCare"
+                },
+                {
+                    "id": 3,
+                    "value": "India Consumer Internet"
+                },
+                {
+                    "id": 1,
+                    "value": "SAAS"
+                }
+            ],
+            "bio": "Dolorem velit sit magnam voluptatem. Aliquam etincidunt dolorem porro quiquia magnam aliquam. Numquam dolore velit dolorem dolor adipisci dolorem. Porro sit est consectetur porro modi magnam. Magnam sit tempora eius ut sed.Ipsum numquam dolor aliquam dolor amet dolore voluptatem. Ut quisquam sit neque dolorem. Dolorem sit ipsum dolorem. Voluptatem labore numquam labore voluptatem ipsum ut. Tempora dolore porro non. Porro amet dolor etincidunt etincidunt consectetur quaerat ipsum. Amet sed quisquam velit est non. Est quiquia sit quiquia dolore magnam quiquia. Quiquia consectetur numquam non non.Dolor sit neque aliquam etincidunt. Porro porro aliquam non non tempora. Modi quisquam dolore dolore ipsum ipsum non. Adipisci quiquia dolore magnam quiquia ipsum adipisci sed. Aliquam velit quiquia porro sit. Adipisci ipsum quaerat dolorem adipisci adipisci.Tempora consectetur labore amet. Consectetur neque labore quaerat. Amet non dolor etincidunt eius velit ipsum. Magnam aliquam ipsum dolorem. Non quiquia quisquam est porro. Labore sit porro aliquam. Modi adipisci non modi voluptatem adipisci. Est est tempora amet. Labore dolorem etincidunt tempora sed. Labore eius velit non neque modi.Quisquam quaerat quiquia amet est. Quiquia modi eius eius est ut eius. Non quaerat voluptatem modi. Ut quisquam velit dolore eius quisquam sit sed. Voluptatem est ipsum voluptatem ut neque modi. Numquam magnam quiquia numquam ut consectetur labore dolor. Magnam non porro amet adipisci ut quiquia. Numquam aliquam magnam tempora. Ipsum non eius adipisci dolorem dolor amet. Eius etincidunt sit sit quisquam non.Dolorem quiquia adipisci ut. Quiquia magnam quisquam sed. Non adipisci tempora tempora sed. Dolor etincidunt eius sed. Dolorem dolore ipsum neque labore ut consectetur porro. Magnam neque ipsum magnam.",
+            "past_companies": [
+                "Hubler",
+                "Minimalist"
+            ],
+            "alma_mater": "Chhatrapati Shahu Ji Maharaj University",
+            "linkedin_url": "https://linkedin.com/in/onofredo-cornfield",
+            "twitter_url": "https://twitter.com/onofredo-cornfield",
+            "past_investments": [
+                "Headfone",
+                "Living Food",
+                "Curly Tales",
+                "Recykal"
+            ],
+            "first_cheque_minimum_size": 946235,
+            "first_cheque_maximum_size": 8227742,
+            "affliated_funds": []
+        },
+        {
+            "id": 9,
+            "name": "Marni Pellamonuten",
+            "designation": "Account Coordinator",
+            "company": "Lazz",
+            "company_picture": "https://picsum.photos/seed/900/256",
+            "profile_picture": "https://picsum.photos/seed/9/512/425",
+            "expertise": [
+                {
+                    "id": 3,
+                    "value": "B2B Growth"
+                },
+                {
+                    "id": 2,
+                    "value": "Consumer Growth"
+                },
+                {
+                    "id": 11,
+                    "value": "Hardware"
+                },
+                {
+                    "id": 7,
+                    "value": "SAAS GTM"
+                },
+                {
+                    "id": 6,
+                    "value": "Sales"
+                },
+                {
+                    "id": 1,
+                    "value": "Technology"
+                }
+            ],
+            "locations": [
+                {
+                    "id": 2,
+                    "value": "Bengaluru"
+                },
+                {
+                    "id": 19,
+                    "value": "Dubai"
+                },
+                {
+                    "id": 8,
+                    "value": "San Francisco"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 9,
+                    "value": "Ecommerce"
+                },
+                {
+                    "id": 3,
+                    "value": "India Consumer Internet"
+                },
+                {
+                    "id": 1,
+                    "value": "SAAS"
+                }
+            ],
+            "bio": "Amet quisquam adipisci aliquam adipisci ut velit labore. Dolore sit est dolor etincidunt. Velit quaerat dolore amet eius non dolore eius. Quiquia etincidunt sit amet quisquam sit est magnam. Aliquam aliquam voluptatem neque. Sed porro tempora est magnam. Aliquam magnam quaerat amet. Tempora consectetur amet velit voluptatem porro.Dolorem sed porro quisquam labore porro. Sed ut sit consectetur sed. Aliquam sed porro est aliquam. Etincidunt aliquam quiquia etincidunt aliquam modi. Eius adipisci voluptatem magnam.Dolor dolore sed dolore ut adipisci non. Adipisci amet magnam eius amet etincidunt dolor numquam. Est voluptatem labore dolor non quaerat aliquam velit. Dolor labore neque numquam amet. Sed eius numquam quisquam etincidunt magnam modi etincidunt. Est magnam quaerat est eius magnam eius. Neque sit porro aliquam numquam porro.Labore adipisci numquam dolor neque ut dolor. Quiquia dolorem quaerat est neque quaerat. Modi sed ut voluptatem adipisci velit. Etincidunt voluptatem velit dolorem quaerat quiquia numquam. Consectetur dolorem eius quiquia.",
+            "past_companies": [
+                "Curly Tales",
+                "Faarms"
+            ],
+            "alma_mater": "Amrita Vishwa Vidyapeetham",
+            "linkedin_url": "https://linkedin.com/in/marni-pellamonuten",
+            "twitter_url": "https://twitter.com/marni-pellamonuten",
+            "past_investments": [
+                "GreedyGame",
+                "HROne",
+                "Vyapaar",
+                "Curly Tales"
+            ],
+            "first_cheque_minimum_size": 753440,
+            "first_cheque_maximum_size": 4111603,
+            "affliated_funds": []
+        },
+        {
+            "id": 10,
+            "name": "Jocelyn Dayton",
+            "designation": "Associate Professor",
+            "company": "Rhycero",
+            "company_picture": "https://picsum.photos/seed/1000/256",
+            "profile_picture": "https://picsum.photos/seed/10/512/425",
+            "expertise": [
+                {
+                    "id": 10,
+                    "value": "Data Science"
+                },
+                {
+                    "id": 8,
+                    "value": "Fund Raising"
+                },
+                {
+                    "id": 7,
+                    "value": "SAAS GTM"
+                }
+            ],
+            "locations": [
+                {
+                    "id": 2,
+                    "value": "Bengaluru"
+                },
+                {
+                    "id": 16,
+                    "value": "Singapore"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 4,
+                    "value": "D2C Brands"
+                },
+                {
+                    "id": 9,
+                    "value": "Ecommerce"
+                },
+                {
+                    "id": 5,
+                    "value": "EdTech"
+                },
+                {
+                    "id": 6,
+                    "value": "FinTech"
+                },
+                {
+                    "id": 8,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 11,
+                    "value": "HealthCare"
+                },
+                {
+                    "id": 7,
+                    "value": "Web3"
+                }
+            ],
+            "bio": "Adipisci amet sed non quiquia eius numquam. Non eius sit sed dolore sed. Adipisci est modi amet eius dolor sit porro. Dolor sit modi quisquam. Etincidunt eius voluptatem aliquam. Etincidunt velit modi amet non est. Eius voluptatem voluptatem ut sit.Velit est quisquam quaerat adipisci ut non etincidunt. Aliquam amet non dolorem amet quisquam adipisci. Labore porro neque neque. Consectetur ipsum numquam eius amet dolorem quaerat amet. Aliquam adipisci velit adipisci amet quisquam tempora. Quaerat dolorem quaerat quisquam.Est tempora amet quaerat modi. Velit eius aliquam sit velit. Amet neque dolor modi aliquam quaerat. Dolore neque dolorem ipsum sed tempora. Non sed amet dolore quaerat ipsum eius modi. Sed ipsum velit modi eius. Quiquia numquam dolor consectetur ut dolore. Aliquam non modi quiquia aliquam. Velit numquam neque non sit.Consectetur numquam non porro non. Quiquia sed velit ut quiquia dolor est est. Dolor sed quisquam adipisci porro quiquia dolorem. Voluptatem etincidunt consectetur amet tempora porro quiquia. Dolore tempora consectetur dolorem. Etincidunt quiquia labore dolore. Velit modi magnam quiquia neque adipisci numquam adipisci.Tempora etincidunt porro labore aliquam dolore non sed. Adipisci etincidunt voluptatem magnam sed porro. Labore velit adipisci neque magnam ipsum consectetur non. Numquam quaerat etincidunt tempora eius aliquam velit. Neque ipsum numquam sed.Porro aliquam est dolore porro etincidunt voluptatem. Modi consectetur quisquam adipisci non voluptatem dolorem. Aliquam non quaerat ipsum sed dolor dolor eius. Consectetur amet aliquam tempora quiquia quaerat. Adipisci quiquia magnam dolore sit adipisci aliquam aliquam. Magnam quaerat quaerat quaerat dolorem. Sit etincidunt dolor voluptatem porro quisquam aliquam. Ut ipsum neque est modi magnam neque quiquia. Porro tempora ut porro. Quiquia quaerat dolor ut sit neque adipisci non.",
+            "past_companies": [
+                "Kodo",
+                "Zigly"
+            ],
+            "alma_mater": "SRM University",
+            "linkedin_url": "https://linkedin.com/in/jocelyn-dayton",
+            "twitter_url": "https://twitter.com/jocelyn-dayton",
+            "past_investments": [
+                "SafexPay",
+                "Absolute",
+                "Villain",
+                "Awign",
+                "Ed-a-Mamma"
+            ],
+            "first_cheque_minimum_size": 700398,
+            "first_cheque_maximum_size": 2064152,
+            "affliated_funds": []
+        },
+        {
+            "id": 11,
+            "name": "Agnese Decourt",
+            "designation": "Pharmacist",
+            "company": "Voonder",
+            "company_picture": "https://picsum.photos/seed/1100/256",
+            "profile_picture": "https://picsum.photos/seed/11/512/425",
+            "expertise": [
+                {
+                    "id": 3,
+                    "value": "B2B Growth"
+                },
+                {
+                    "id": 2,
+                    "value": "Consumer Growth"
+                },
+                {
+                    "id": 10,
+                    "value": "Data Science"
+                },
+                {
+                    "id": 8,
+                    "value": "Fund Raising"
+                },
+                {
+                    "id": 11,
+                    "value": "Hardware"
+                },
+                {
+                    "id": 5,
+                    "value": "Org Design"
+                },
+                {
+                    "id": 4,
+                    "value": "Product Design"
+                },
+                {
+                    "id": 7,
+                    "value": "SAAS GTM"
+                },
+                {
+                    "id": 6,
+                    "value": "Sales"
+                },
+                {
+                    "id": 9,
+                    "value": "Strategy"
+                },
+                {
+                    "id": 1,
+                    "value": "Technology"
+                }
+            ],
+            "locations": [
+                {
+                    "id": 5,
+                    "value": "Pune"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 9,
+                    "value": "Ecommerce"
+                },
+                {
+                    "id": 5,
+                    "value": "EdTech"
+                },
+                {
+                    "id": 8,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 11,
+                    "value": "HealthCare"
+                },
+                {
+                    "id": 1,
+                    "value": "SAAS"
+                },
+                {
+                    "id": 7,
+                    "value": "Web3"
+                }
+            ],
+            "bio": "Eius magnam consectetur quiquia tempora sit aliquam labore. Tempora quisquam numquam adipisci neque. Sed sit numquam neque etincidunt porro dolorem dolore. Est labore ut etincidunt numquam. Modi sit labore magnam neque numquam dolorem neque. Eius voluptatem sed adipisci sit. Labore voluptatem magnam dolore sit tempora neque sed. Tempora quiquia consectetur quiquia eius dolorem neque. Ipsum dolore quaerat ipsum quisquam magnam dolorem. Consectetur eius eius quiquia ut labore quiquia quaerat.Sed quaerat ipsum consectetur sit sit dolore. Amet numquam dolor neque tempora. Modi quisquam ipsum etincidunt neque quisquam. Amet voluptatem ipsum dolore est quiquia dolor tempora. Adipisci eius dolorem velit ut. Sed est adipisci dolore. Etincidunt est numquam magnam eius. Dolor porro non ut numquam amet. Ipsum dolore aliquam etincidunt dolorem. Non quisquam amet est voluptatem dolor.Est dolorem etincidunt amet neque sed. Consectetur dolorem sit dolore magnam consectetur est. Dolor non velit voluptatem etincidunt dolorem modi numquam. Consectetur amet adipisci numquam aliquam. Est ut etincidunt tempora. Quaerat amet sed consectetur. Tempora velit numquam voluptatem magnam labore quisquam. Velit tempora est dolore. Labore dolorem dolorem etincidunt numquam.",
+            "past_companies": [
+                "Headfone",
+                "SmartStaff"
+            ],
+            "alma_mater": "Sardar Vallabhbhai National Institute of Technology, Surat",
+            "linkedin_url": "https://linkedin.com/in/agnese-decourt",
+            "twitter_url": "https://twitter.com/agnese-decourt",
+            "past_investments": [
+                "BlissClub",
+                "WeRize",
+                "Wealthy",
+                "Oxyzo Financial Services",
+                "Freightwalla"
+            ],
+            "first_cheque_minimum_size": 412146,
+            "first_cheque_maximum_size": 1564887,
+            "affliated_funds": []
+        }
+    ]
+}

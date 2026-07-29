@@ -1,0 +1,100 @@
+.flex {
+    display: flex;
+
+    &.col {
+        flex-direction: column;
+    }
+
+    &.row {
+        flex-direction: row;
+    }
+
+}
+
+.tag-pill {
+    display: inline-block;
+    background: rgba(255, 162, 56, 0.2);
+    border-radius: 25px;
+
+    padding: 0.35em 0.65em;
+
+    font-size: .85em;
+
+    line-height: 1.2em;
+    color: #2c2c2c;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+
+    font-family: 'Matter';
+    font-style: normal;
+    font-weight: 400;
+
+    &.empty {
+        background: transparent;
+    }
+
+}
+
+.bdr {
+    border: 1px solid #ff0000;
+}
+
+
+.unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+@mixin custom-scroll-mixin($scrollbar-width: 5px,
+    $scrollbar-track-color: #fafafa,
+    $scrollbar-thumb-color: $allin-red,
+    $scrollbar-thumb-border-radius: 100px) {
+
+    &::-webkit-scrollbar {
+        // display: none;
+        height: 1px;
+        width: $scrollbar-width;
+        padding: 6px;
+    }
+
+
+    &::-webkit-scrollbar-track {
+        background-color: $scrollbar-track-color;
+        border-radius: $scrollbar-thumb-border-radius;
+
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $scrollbar-thumb-color;
+        border-radius: $scrollbar-thumb-border-radius;
+    }
+}
+
+
+
+@mixin navbar-mixin($navbar-background-color: #fafafa, $navbar-height: 75px, $z-index-navbar: 9) {
+
+    // ------------- navbar ----------------
+    #navbar {
+        z-index: $z-index-navbar;
+        background: $navbar-background-color;
+    }
+
+    @media (width < 768px) {
+
+        .sticky {
+            position: fixed !important;
+            top: 0;
+            width: 100%;
+
+        }
+
+        .wrapper+.content {
+            padding-top: $navbar-height;
+        }
+    }
+}

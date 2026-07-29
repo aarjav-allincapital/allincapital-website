@@ -1,0 +1,125 @@
+.btn {
+    &-primary {
+        background-color: $secondary;
+        padding: 10px 0px;
+        display: inline-block;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $white;
+        border-radius: 40px;
+        font-family: 'sharp_grotesksemibold_20';
+        font-size: 14px;
+
+        @media (max-width: 768px) {
+            font-size: 12px;
+            padding: 7px 5px;
+        }
+
+    }
+
+    &-secondary {
+        border: 2px solid $dark-gray;
+        padding: 10px 0px;
+        display: inline-block;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $dark-gray;
+        border-radius: 40px;
+        font-family: 'sharp_grotesksemibold_20';
+        font-size: 14px;
+
+        @media (max-width: 768px) {
+            font-size: 12px;
+            padding: 7px 5px;
+        }
+    }
+}
+
+button {
+    background-color: $secondary;
+    padding: 15px 25px;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $white;
+    border-radius: 40px;
+    font-family: 'sharp_grotesksemibold_20';
+    font-size: 14px;
+    border: 0;
+    cursor: pointer;
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+        padding: 7px 5px;
+    }
+}
+
+
+.read-more {
+    width: 130px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.btn {
+    overflow: hidden;
+
+    span:not(:first-child) {
+        display: none;
+
+        justify-content: center;
+        text-align: center;
+    }
+
+    .marquee__inner {
+        display: block;
+        text-align: center;
+        width: auto;
+
+        // span {
+        //     i {
+        //         vertical-align: middle;
+        //     }
+        // }
+    }
+}
+
+.marquee {
+    position: relative;
+    overflow: hidden;
+    --offset: -4px;
+    --move-initial: calc(-25% + var(--offset));
+    --move-final: calc(-50% + var(--offset));
+
+    span:not(:first-child) {
+        display: block;
+    }
+
+    .marquee__inner {
+        width: fit-content;
+        display: flex;
+        position: relative;
+        transform: translate3d(var(--move-initial), 0, 0);
+        animation: marquee 0.5s linear infinite;
+        animation-play-state: paused;
+        animation-fill-mode: forwards;
+    }
+}
+
+.marquee span {
+    padding: 0 18px;
+}
+
+.marquee:hover .marquee__inner {
+    animation-play-state: running;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(var(--move-initial), 0, 0);
+    }
+
+    100% {
+        transform: translate3d(var(--move-final), 0, 0);
+    }
+}

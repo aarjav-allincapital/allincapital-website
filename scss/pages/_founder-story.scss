@@ -1,0 +1,99 @@
+.founder-story-page {
+    padding: 0;
+}
+
+.founder-story {
+    margin: 0 auto 125px;
+
+    header {
+        padding-top: 140px;
+        background-color: $body-bg;
+        color: $white;
+        margin: 0 auto 225px;
+
+        @media (max-width: 768px) {
+            margin: 0 auto 30%;
+        }
+
+        @media (max-width: 576px) {
+            margin: 0 auto 45%;
+        }
+
+        .header-wrap {
+            width: 770px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            padding-bottom: 350px;
+
+            @media (max-width: 768px) {
+                width: calc(100% - 50px);
+                padding-bottom: 45%;
+            }
+
+            @media (max-width: 576px) {
+                padding-bottom: 40%;
+            }
+
+            .pre-header-link {
+                color: $secondary;
+                text-transform: uppercase;
+                margin-bottom: 15px;
+                display: inline-block;
+                font-family: 'sharp_grotesksemibold_20';
+            }
+
+            h1 {
+                font-size: 32px;
+                line-height: 1.25;
+                max-width: 770px;
+                margin: 0 auto;
+
+                span {
+                    display: block;
+                }
+
+                .story-organisation {
+                    color: $secondary;
+                }
+            }
+
+            .fs-banner-img {
+                position: absolute;
+                left: 50%;
+                bottom: -125px;
+                max-width: 100%;
+                transform: translate(-50%, 0);
+            }
+
+        }
+    }
+
+    .story {
+        width: 550px;
+        margin: 0 auto;
+
+        @media (max-width: 980px) {
+            width: calc(100% - 50px);
+        }
+
+        p {
+            margin-bottom: 30px;
+            font-size: 18px;
+            line-height: 1.75;
+
+            @media (max-width: 768px) {
+                font-size: 16px;
+                line-height: 1.5;
+            }
+        }
+
+        blockquote {
+            p {
+                font-size: 24px;
+                font-family: 'sharp_grotesksemibold_20';
+                line-height: 1.5;
+            }
+        }
+    }
+}

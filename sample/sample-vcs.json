@@ -1,0 +1,1424 @@
+{
+    "page": 1,
+    "page_size": 9,
+    "pages": 13,
+    "links": {
+        "next": "http://localhost:8000/funds/api/v1/vc/?page=2&page_size=9",
+        "previous": null
+    },
+    "count": 117,
+    "results": [
+        {
+            "id": 21,
+            "name": "100x VC",
+            "fund_website": "https://www.100x.vc/",
+            "first_cheque_minimum_size": 35000,
+            "first_cheque_maximum_size": 165000,
+            "linkedin_url": "https://www.linkedin.com/company/100x-vc/",
+            "stages": [
+                {
+                    "id": 12,
+                    "value": "Prototype (generally seed/pre-series A)"
+                },
+                {
+                    "id": 14,
+                    "value": "Ideation (generally pre-seed/seed)"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 1,
+                    "value": "Adtech"
+                },
+                {
+                    "id": 2,
+                    "value": "Agriculture / Agri-tech"
+                },
+                {
+                    "id": 3,
+                    "value": "B2B SaaS"
+                },
+                {
+                    "id": 4,
+                    "value": "Community"
+                },
+                {
+                    "id": 5,
+                    "value": "Continuing Education"
+                },
+                {
+                    "id": 6,
+                    "value": "Crypto / Blockchain / Web3"
+                },
+                {
+                    "id": 7,
+                    "value": "Developer Tools"
+                },
+                {
+                    "id": 8,
+                    "value": "Energy"
+                },
+                {
+                    "id": 9,
+                    "value": "Entertainment"
+                },
+                {
+                    "id": 10,
+                    "value": "Financial Services"
+                },
+                {
+                    "id": 11,
+                    "value": "Fitness"
+                },
+                {
+                    "id": 12,
+                    "value": "Food/Beverage"
+                },
+                {
+                    "id": 13,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 14,
+                    "value": "Hard Tech"
+                },
+                {
+                    "id": 15,
+                    "value": "Hardware"
+                },
+                {
+                    "id": 16,
+                    "value": "Healthcare"
+                },
+                {
+                    "id": 17,
+                    "value": "Insurance"
+                },
+                {
+                    "id": 18,
+                    "value": "Language Learning"
+                },
+                {
+                    "id": 19,
+                    "value": "Marketplace"
+                },
+                {
+                    "id": 20,
+                    "value": "Media"
+                },
+                {
+                    "id": 21,
+                    "value": "Mental Health"
+                },
+                {
+                    "id": 22,
+                    "value": "Retail"
+                },
+                {
+                    "id": 23,
+                    "value": "Sales Enablement"
+                },
+                {
+                    "id": 24,
+                    "value": "Security"
+                },
+                {
+                    "id": 25,
+                    "value": "Sustainability"
+                },
+                {
+                    "id": 26,
+                    "value": "Transportation"
+                },
+                {
+                    "id": 27,
+                    "value": "Travel/Tourism"
+                },
+                {
+                    "id": 28,
+                    "value": "Virtual Reality / AR"
+                },
+                {
+                    "id": 29,
+                    "value": "Wellness"
+                },
+                {
+                    "id": 30,
+                    "value": "Analytics"
+                },
+                {
+                    "id": 31,
+                    "value": "K-12"
+                },
+                {
+                    "id": 32,
+                    "value": "Recruiting / HR-tech"
+                },
+                {
+                    "id": 33,
+                    "value": "Other"
+                },
+                {
+                    "id": 34,
+                    "value": "Aerospace / Space-tech"
+                },
+                {
+                    "id": 35,
+                    "value": "Robotics"
+                },
+                {
+                    "id": 36,
+                    "value": "Real Estate / Prop-tech"
+                },
+                {
+                    "id": 37,
+                    "value": "Biotech"
+                },
+                {
+                    "id": 38,
+                    "value": "Freight"
+                },
+                {
+                    "id": 39,
+                    "value": "Construction"
+                },
+                {
+                    "id": 40,
+                    "value": "Government"
+                },
+                {
+                    "id": 41,
+                    "value": "Medical Devices"
+                }
+            ],
+            "types_of_financing": [
+                {
+                    "id": 3,
+                    "value": "SAFE"
+                }
+            ],
+            "fund_email": "",
+            "thesis": "100X.VC is the first Venture Capital firm to invest in early stage startups using founder friendly India SAFE Notes. We invest in moonshot tech-first ideas.",
+            "fund_type": {
+                "id": 1,
+                "value": "VC"
+            }
+        },
+        {
+            "id": 18,
+            "name": "2am VC",
+            "fund_website": "https://www.2amvc.com/",
+            "first_cheque_minimum_size": 0,
+            "first_cheque_maximum_size": 0,
+            "linkedin_url": "https://www.linkedin.com/company/2-a-m-ventures/?viewAsMember=true",
+            "stages": [
+                {
+                    "id": 12,
+                    "value": "Prototype (generally seed/pre-series A)"
+                },
+                {
+                    "id": 13,
+                    "value": "Early Revenue (generally pre-series A/series A)"
+                },
+                {
+                    "id": 14,
+                    "value": "Ideation (generally pre-seed/seed)"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 1,
+                    "value": "Adtech"
+                },
+                {
+                    "id": 2,
+                    "value": "Agriculture / Agri-tech"
+                },
+                {
+                    "id": 3,
+                    "value": "B2B SaaS"
+                },
+                {
+                    "id": 4,
+                    "value": "Community"
+                },
+                {
+                    "id": 5,
+                    "value": "Continuing Education"
+                },
+                {
+                    "id": 6,
+                    "value": "Crypto / Blockchain / Web3"
+                },
+                {
+                    "id": 7,
+                    "value": "Developer Tools"
+                },
+                {
+                    "id": 8,
+                    "value": "Energy"
+                },
+                {
+                    "id": 9,
+                    "value": "Entertainment"
+                },
+                {
+                    "id": 10,
+                    "value": "Financial Services"
+                },
+                {
+                    "id": 11,
+                    "value": "Fitness"
+                },
+                {
+                    "id": 12,
+                    "value": "Food/Beverage"
+                },
+                {
+                    "id": 13,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 14,
+                    "value": "Hard Tech"
+                },
+                {
+                    "id": 15,
+                    "value": "Hardware"
+                },
+                {
+                    "id": 16,
+                    "value": "Healthcare"
+                },
+                {
+                    "id": 17,
+                    "value": "Insurance"
+                },
+                {
+                    "id": 18,
+                    "value": "Language Learning"
+                },
+                {
+                    "id": 19,
+                    "value": "Marketplace"
+                },
+                {
+                    "id": 20,
+                    "value": "Media"
+                },
+                {
+                    "id": 21,
+                    "value": "Mental Health"
+                },
+                {
+                    "id": 22,
+                    "value": "Retail"
+                },
+                {
+                    "id": 23,
+                    "value": "Sales Enablement"
+                },
+                {
+                    "id": 24,
+                    "value": "Security"
+                },
+                {
+                    "id": 25,
+                    "value": "Sustainability"
+                },
+                {
+                    "id": 26,
+                    "value": "Transportation"
+                },
+                {
+                    "id": 27,
+                    "value": "Travel/Tourism"
+                },
+                {
+                    "id": 28,
+                    "value": "Virtual Reality / AR"
+                },
+                {
+                    "id": 29,
+                    "value": "Wellness"
+                },
+                {
+                    "id": 30,
+                    "value": "Analytics"
+                },
+                {
+                    "id": 31,
+                    "value": "K-12"
+                },
+                {
+                    "id": 32,
+                    "value": "Recruiting / HR-tech"
+                },
+                {
+                    "id": 33,
+                    "value": "Other"
+                },
+                {
+                    "id": 34,
+                    "value": "Aerospace / Space-tech"
+                },
+                {
+                    "id": 35,
+                    "value": "Robotics"
+                },
+                {
+                    "id": 36,
+                    "value": "Real Estate / Prop-tech"
+                },
+                {
+                    "id": 37,
+                    "value": "Biotech"
+                },
+                {
+                    "id": 38,
+                    "value": "Freight"
+                },
+                {
+                    "id": 39,
+                    "value": "Construction"
+                },
+                {
+                    "id": 40,
+                    "value": "Government"
+                },
+                {
+                    "id": 41,
+                    "value": "Medical Devices"
+                }
+            ],
+            "types_of_financing": [
+                {
+                    "id": 1,
+                    "value": "Equity"
+                },
+                {
+                    "id": 2,
+                    "value": "Convertible note"
+                },
+                {
+                    "id": 3,
+                    "value": "SAFE"
+                }
+            ],
+            "fund_email": "",
+            "thesis": "2am VC is a sector agnostic, Gen Z centric, \"India Only\" early stage venture fund. We invest via isafe, safe, convertible notes and priced rounds. We are lead investors in over half of our deals. When we invest, our first priority is closing the round and getting capital into our portfolio accounts as soon as possible.",
+            "fund_type": {
+                "id": 1,
+                "value": "VC"
+            }
+        },
+        {
+            "id": 112,
+            "name": "3Lines Venture Capital",
+            "fund_website": "https://3lines.vc/#portfolio",
+            "first_cheque_minimum_size": 0,
+            "first_cheque_maximum_size": 0,
+            "linkedin_url": "https://www.linkedin.com/company/3lines-venture-capital/",
+            "stages": [
+                {
+                    "id": 13,
+                    "value": "Early Revenue (generally pre-series A/series A)"
+                },
+                {
+                    "id": 15,
+                    "value": "Scaling (generally series A and beyond)"
+                },
+                {
+                    "id": 16,
+                    "value": "Growth"
+                },
+                {
+                    "id": 17,
+                    "value": "Pre-IPO"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 1,
+                    "value": "Adtech"
+                },
+                {
+                    "id": 2,
+                    "value": "Agriculture / Agri-tech"
+                },
+                {
+                    "id": 3,
+                    "value": "B2B SaaS"
+                },
+                {
+                    "id": 4,
+                    "value": "Community"
+                },
+                {
+                    "id": 5,
+                    "value": "Continuing Education"
+                },
+                {
+                    "id": 9,
+                    "value": "Entertainment"
+                },
+                {
+                    "id": 10,
+                    "value": "Financial Services"
+                },
+                {
+                    "id": 11,
+                    "value": "Fitness"
+                },
+                {
+                    "id": 13,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 14,
+                    "value": "Hard Tech"
+                },
+                {
+                    "id": 15,
+                    "value": "Hardware"
+                },
+                {
+                    "id": 16,
+                    "value": "Healthcare"
+                },
+                {
+                    "id": 17,
+                    "value": "Insurance"
+                },
+                {
+                    "id": 18,
+                    "value": "Language Learning"
+                },
+                {
+                    "id": 19,
+                    "value": "Marketplace"
+                },
+                {
+                    "id": 21,
+                    "value": "Mental Health"
+                },
+                {
+                    "id": 22,
+                    "value": "Retail"
+                },
+                {
+                    "id": 25,
+                    "value": "Sustainability"
+                },
+                {
+                    "id": 26,
+                    "value": "Transportation"
+                },
+                {
+                    "id": 27,
+                    "value": "Travel/Tourism"
+                },
+                {
+                    "id": 28,
+                    "value": "Virtual Reality / AR"
+                },
+                {
+                    "id": 29,
+                    "value": "Wellness"
+                },
+                {
+                    "id": 30,
+                    "value": "Analytics"
+                },
+                {
+                    "id": 31,
+                    "value": "K-12"
+                },
+                {
+                    "id": 33,
+                    "value": "Other"
+                },
+                {
+                    "id": 34,
+                    "value": "Aerospace / Space-tech"
+                }
+            ],
+            "types_of_financing": [
+                {
+                    "id": 1,
+                    "value": "Equity"
+                }
+            ],
+            "fund_email": "",
+            "thesis": "3Lines is an AI-age VC Firm that Invests in Bold founders with capital-efficient, disruptive, Technology companies that can leverage capital & Coaching to grow rapidly.",
+            "fund_type": {
+                "id": 1,
+                "value": "VC"
+            }
+        },
+        {
+            "id": 31,
+            "name": "3one4 Capital",
+            "fund_website": "3one4capital.com",
+            "first_cheque_minimum_size": 0,
+            "first_cheque_maximum_size": 0,
+            "linkedin_url": "https://www.linkedin.com/company/3one4-capital/",
+            "stages": [
+                {
+                    "id": 12,
+                    "value": "Prototype (generally seed/pre-series A)"
+                },
+                {
+                    "id": 13,
+                    "value": "Early Revenue (generally pre-series A/series A)"
+                },
+                {
+                    "id": 15,
+                    "value": "Scaling (generally series A and beyond)"
+                },
+                {
+                    "id": 16,
+                    "value": "Growth"
+                },
+                {
+                    "id": 17,
+                    "value": "Pre-IPO"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 1,
+                    "value": "Adtech"
+                },
+                {
+                    "id": 3,
+                    "value": "B2B SaaS"
+                },
+                {
+                    "id": 6,
+                    "value": "Crypto / Blockchain / Web3"
+                },
+                {
+                    "id": 7,
+                    "value": "Developer Tools"
+                },
+                {
+                    "id": 9,
+                    "value": "Entertainment"
+                },
+                {
+                    "id": 10,
+                    "value": "Financial Services"
+                },
+                {
+                    "id": 14,
+                    "value": "Hard Tech"
+                },
+                {
+                    "id": 16,
+                    "value": "Healthcare"
+                },
+                {
+                    "id": 17,
+                    "value": "Insurance"
+                },
+                {
+                    "id": 19,
+                    "value": "Marketplace"
+                },
+                {
+                    "id": 20,
+                    "value": "Media"
+                },
+                {
+                    "id": 22,
+                    "value": "Retail"
+                },
+                {
+                    "id": 23,
+                    "value": "Sales Enablement"
+                },
+                {
+                    "id": 24,
+                    "value": "Security"
+                },
+                {
+                    "id": 30,
+                    "value": "Analytics"
+                },
+                {
+                    "id": 32,
+                    "value": "Recruiting / HR-tech"
+                }
+            ],
+            "types_of_financing": [
+                {
+                    "id": 1,
+                    "value": "Equity"
+                }
+            ],
+            "fund_email": "",
+            "thesis": "At 3one4 Capital, we focus on select market categories and on the intersection of adjacencies that are large, growing, and ready for unique products and services. Target areas are SaaS and Enterprise Automation,  D2C, Fintech, Digital Media and Deeptech.",
+            "fund_type": {
+                "id": 1,
+                "value": "VC"
+            }
+        },
+        {
+            "id": 10,
+            "name": "9 Unicorns",
+            "fund_website": "https://www.9unicorns.in/",
+            "first_cheque_minimum_size": 0,
+            "first_cheque_maximum_size": 0,
+            "linkedin_url": "https://www.linkedin.com/company/9unicorns/",
+            "stages": [
+                {
+                    "id": 12,
+                    "value": "Prototype (generally seed/pre-series A)"
+                },
+                {
+                    "id": 13,
+                    "value": "Early Revenue (generally pre-series A/series A)"
+                },
+                {
+                    "id": 14,
+                    "value": "Ideation (generally pre-seed/seed)"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 1,
+                    "value": "Adtech"
+                },
+                {
+                    "id": 2,
+                    "value": "Agriculture / Agri-tech"
+                },
+                {
+                    "id": 3,
+                    "value": "B2B SaaS"
+                },
+                {
+                    "id": 4,
+                    "value": "Community"
+                },
+                {
+                    "id": 5,
+                    "value": "Continuing Education"
+                },
+                {
+                    "id": 6,
+                    "value": "Crypto / Blockchain / Web3"
+                },
+                {
+                    "id": 7,
+                    "value": "Developer Tools"
+                },
+                {
+                    "id": 8,
+                    "value": "Energy"
+                },
+                {
+                    "id": 9,
+                    "value": "Entertainment"
+                },
+                {
+                    "id": 10,
+                    "value": "Financial Services"
+                },
+                {
+                    "id": 11,
+                    "value": "Fitness"
+                },
+                {
+                    "id": 12,
+                    "value": "Food/Beverage"
+                },
+                {
+                    "id": 13,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 14,
+                    "value": "Hard Tech"
+                },
+                {
+                    "id": 15,
+                    "value": "Hardware"
+                },
+                {
+                    "id": 16,
+                    "value": "Healthcare"
+                },
+                {
+                    "id": 17,
+                    "value": "Insurance"
+                },
+                {
+                    "id": 18,
+                    "value": "Language Learning"
+                },
+                {
+                    "id": 19,
+                    "value": "Marketplace"
+                },
+                {
+                    "id": 20,
+                    "value": "Media"
+                },
+                {
+                    "id": 21,
+                    "value": "Mental Health"
+                },
+                {
+                    "id": 22,
+                    "value": "Retail"
+                },
+                {
+                    "id": 23,
+                    "value": "Sales Enablement"
+                },
+                {
+                    "id": 24,
+                    "value": "Security"
+                },
+                {
+                    "id": 25,
+                    "value": "Sustainability"
+                },
+                {
+                    "id": 26,
+                    "value": "Transportation"
+                },
+                {
+                    "id": 27,
+                    "value": "Travel/Tourism"
+                },
+                {
+                    "id": 28,
+                    "value": "Virtual Reality / AR"
+                },
+                {
+                    "id": 29,
+                    "value": "Wellness"
+                },
+                {
+                    "id": 30,
+                    "value": "Analytics"
+                },
+                {
+                    "id": 31,
+                    "value": "K-12"
+                },
+                {
+                    "id": 32,
+                    "value": "Recruiting / HR-tech"
+                },
+                {
+                    "id": 33,
+                    "value": "Other"
+                },
+                {
+                    "id": 34,
+                    "value": "Aerospace / Space-tech"
+                },
+                {
+                    "id": 35,
+                    "value": "Robotics"
+                },
+                {
+                    "id": 36,
+                    "value": "Real Estate / Prop-tech"
+                },
+                {
+                    "id": 37,
+                    "value": "Biotech"
+                },
+                {
+                    "id": 38,
+                    "value": "Freight"
+                },
+                {
+                    "id": 39,
+                    "value": "Construction"
+                },
+                {
+                    "id": 40,
+                    "value": "Government"
+                },
+                {
+                    "id": 41,
+                    "value": "Medical Devices"
+                }
+            ],
+            "types_of_financing": [
+                {
+                    "id": 1,
+                    "value": "Equity"
+                }
+            ],
+            "fund_email": "",
+            "thesis": "We are reinventing idea stage funding! 9Unicorns is an accelerator program backed by successful founders & leading CXOs for early stage startups!",
+            "fund_type": {
+                "id": 2,
+                "value": "Incubator, Accelerator"
+            }
+        },
+        {
+            "id": 63,
+            "name": "A91 Partners",
+            "fund_website": "https://www.a91partners.com/",
+            "first_cheque_minimum_size": 0,
+            "first_cheque_maximum_size": 0,
+            "linkedin_url": "https://www.linkedin.com/company/a91partners/",
+            "stages": [
+                {
+                    "id": 12,
+                    "value": "Prototype (generally seed/pre-series A)"
+                },
+                {
+                    "id": 13,
+                    "value": "Early Revenue (generally pre-series A/series A)"
+                },
+                {
+                    "id": 15,
+                    "value": "Scaling (generally series A and beyond)"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 1,
+                    "value": "Adtech"
+                },
+                {
+                    "id": 2,
+                    "value": "Agriculture / Agri-tech"
+                },
+                {
+                    "id": 4,
+                    "value": "Community"
+                },
+                {
+                    "id": 5,
+                    "value": "Continuing Education"
+                },
+                {
+                    "id": 9,
+                    "value": "Entertainment"
+                },
+                {
+                    "id": 10,
+                    "value": "Financial Services"
+                },
+                {
+                    "id": 11,
+                    "value": "Fitness"
+                },
+                {
+                    "id": 12,
+                    "value": "Food/Beverage"
+                },
+                {
+                    "id": 14,
+                    "value": "Hard Tech"
+                },
+                {
+                    "id": 16,
+                    "value": "Healthcare"
+                },
+                {
+                    "id": 19,
+                    "value": "Marketplace"
+                },
+                {
+                    "id": 21,
+                    "value": "Mental Health"
+                },
+                {
+                    "id": 22,
+                    "value": "Retail"
+                },
+                {
+                    "id": 27,
+                    "value": "Travel/Tourism"
+                },
+                {
+                    "id": 29,
+                    "value": "Wellness"
+                },
+                {
+                    "id": 30,
+                    "value": "Analytics"
+                },
+                {
+                    "id": 33,
+                    "value": "Other"
+                },
+                {
+                    "id": 37,
+                    "value": "Biotech"
+                }
+            ],
+            "types_of_financing": [
+                {
+                    "id": 1,
+                    "value": "Equity"
+                }
+            ],
+            "fund_email": "",
+            "thesis": "We invest in startups in AI and machine learning, consumer technology, and health care.",
+            "fund_type": {
+                "id": 1,
+                "value": "VC"
+            }
+        },
+        {
+            "id": 75,
+            "name": "Accel Partners",
+            "fund_website": "https://www.accel.com/india-home",
+            "first_cheque_minimum_size": 0,
+            "first_cheque_maximum_size": 0,
+            "linkedin_url": "https://www.linkedin.com/company/accel-vc/",
+            "stages": [
+                {
+                    "id": 12,
+                    "value": "Prototype (generally seed/pre-series A)"
+                },
+                {
+                    "id": 13,
+                    "value": "Early Revenue (generally pre-series A/series A)"
+                },
+                {
+                    "id": 14,
+                    "value": "Ideation (generally pre-seed/seed)"
+                },
+                {
+                    "id": 15,
+                    "value": "Scaling (generally series A and beyond)"
+                },
+                {
+                    "id": 16,
+                    "value": "Growth"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 1,
+                    "value": "Adtech"
+                },
+                {
+                    "id": 2,
+                    "value": "Agriculture / Agri-tech"
+                },
+                {
+                    "id": 3,
+                    "value": "B2B SaaS"
+                },
+                {
+                    "id": 4,
+                    "value": "Community"
+                },
+                {
+                    "id": 5,
+                    "value": "Continuing Education"
+                },
+                {
+                    "id": 7,
+                    "value": "Developer Tools"
+                },
+                {
+                    "id": 9,
+                    "value": "Entertainment"
+                },
+                {
+                    "id": 10,
+                    "value": "Financial Services"
+                },
+                {
+                    "id": 11,
+                    "value": "Fitness"
+                },
+                {
+                    "id": 12,
+                    "value": "Food/Beverage"
+                },
+                {
+                    "id": 13,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 14,
+                    "value": "Hard Tech"
+                },
+                {
+                    "id": 15,
+                    "value": "Hardware"
+                },
+                {
+                    "id": 16,
+                    "value": "Healthcare"
+                },
+                {
+                    "id": 17,
+                    "value": "Insurance"
+                },
+                {
+                    "id": 18,
+                    "value": "Language Learning"
+                },
+                {
+                    "id": 19,
+                    "value": "Marketplace"
+                },
+                {
+                    "id": 20,
+                    "value": "Media"
+                },
+                {
+                    "id": 21,
+                    "value": "Mental Health"
+                },
+                {
+                    "id": 22,
+                    "value": "Retail"
+                },
+                {
+                    "id": 23,
+                    "value": "Sales Enablement"
+                },
+                {
+                    "id": 25,
+                    "value": "Sustainability"
+                },
+                {
+                    "id": 26,
+                    "value": "Transportation"
+                },
+                {
+                    "id": 29,
+                    "value": "Wellness"
+                },
+                {
+                    "id": 30,
+                    "value": "Analytics"
+                },
+                {
+                    "id": 31,
+                    "value": "K-12"
+                },
+                {
+                    "id": 32,
+                    "value": "Recruiting / HR-tech"
+                },
+                {
+                    "id": 33,
+                    "value": "Other"
+                },
+                {
+                    "id": 34,
+                    "value": "Aerospace / Space-tech"
+                },
+                {
+                    "id": 35,
+                    "value": "Robotics"
+                },
+                {
+                    "id": 36,
+                    "value": "Real Estate / Prop-tech"
+                },
+                {
+                    "id": 37,
+                    "value": "Biotech"
+                },
+                {
+                    "id": 38,
+                    "value": "Freight"
+                }
+            ],
+            "types_of_financing": [
+                {
+                    "id": 1,
+                    "value": "Equity"
+                }
+            ],
+            "fund_email": "",
+            "thesis": "We are a leading venture capital firm that invests in people and their companies from the earliest days through all phases of private company growth.",
+            "fund_type": {
+                "id": 1,
+                "value": "VC"
+            }
+        },
+        {
+            "id": 73,
+            "name": "Aditya Birla Ventures",
+            "fund_website": "https://www.adityabirlaventures.com/",
+            "first_cheque_minimum_size": 0,
+            "first_cheque_maximum_size": 0,
+            "linkedin_url": "https://www.linkedin.com/company/aditya-birla-ventures/",
+            "stages": [
+                {
+                    "id": 12,
+                    "value": "Prototype (generally seed/pre-series A)"
+                },
+                {
+                    "id": 13,
+                    "value": "Early Revenue (generally pre-series A/series A)"
+                },
+                {
+                    "id": 15,
+                    "value": "Scaling (generally series A and beyond)"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 1,
+                    "value": "Adtech"
+                },
+                {
+                    "id": 3,
+                    "value": "B2B SaaS"
+                },
+                {
+                    "id": 4,
+                    "value": "Community"
+                },
+                {
+                    "id": 5,
+                    "value": "Continuing Education"
+                },
+                {
+                    "id": 7,
+                    "value": "Developer Tools"
+                },
+                {
+                    "id": 10,
+                    "value": "Financial Services"
+                },
+                {
+                    "id": 11,
+                    "value": "Fitness"
+                },
+                {
+                    "id": 12,
+                    "value": "Food/Beverage"
+                },
+                {
+                    "id": 13,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 14,
+                    "value": "Hard Tech"
+                },
+                {
+                    "id": 16,
+                    "value": "Healthcare"
+                },
+                {
+                    "id": 17,
+                    "value": "Insurance"
+                },
+                {
+                    "id": 18,
+                    "value": "Language Learning"
+                },
+                {
+                    "id": 19,
+                    "value": "Marketplace"
+                },
+                {
+                    "id": 20,
+                    "value": "Media"
+                },
+                {
+                    "id": 22,
+                    "value": "Retail"
+                },
+                {
+                    "id": 27,
+                    "value": "Travel/Tourism"
+                },
+                {
+                    "id": 28,
+                    "value": "Virtual Reality / AR"
+                },
+                {
+                    "id": 29,
+                    "value": "Wellness"
+                },
+                {
+                    "id": 30,
+                    "value": "Analytics"
+                },
+                {
+                    "id": 31,
+                    "value": "K-12"
+                },
+                {
+                    "id": 32,
+                    "value": "Recruiting / HR-tech"
+                },
+                {
+                    "id": 33,
+                    "value": "Other"
+                },
+                {
+                    "id": 36,
+                    "value": "Real Estate / Prop-tech"
+                },
+                {
+                    "id": 37,
+                    "value": "Biotech"
+                },
+                {
+                    "id": 38,
+                    "value": "Freight"
+                }
+            ],
+            "types_of_financing": [
+                {
+                    "id": 1,
+                    "value": "Equity"
+                }
+            ],
+            "fund_email": "",
+            "thesis": "Aditya Birla Ventures is sector agnostic but has a particular interest in Fin-Tech, Edu-Tech, Health-Tech, Consumer-Tech, Enterprise Applications (SaaS), and Consumer Products (brands).\nABV invests from the Seed to Series B stages. Aside from capital, it seeks to leverage ABG's global eco-system, a wealth of experience, and industry relationships to help portfolio companies grow.",
+            "fund_type": {
+                "id": 1,
+                "value": "VC"
+            }
+        },
+        {
+            "id": 123,
+            "name": "All In Capital",
+            "fund_website": "https://allincapital.vc/",
+            "first_cheque_minimum_size": 80000,
+            "first_cheque_maximum_size": 300000,
+            "linkedin_url": "https://www.linkedin.com/company/all-india-capital/",
+            "stages": [
+                {
+                    "id": 12,
+                    "value": "Prototype (generally seed/pre-series A)"
+                },
+                {
+                    "id": 13,
+                    "value": "Early Revenue (generally pre-series A/series A)"
+                },
+                {
+                    "id": 14,
+                    "value": "Ideation (generally pre-seed/seed)"
+                }
+            ],
+            "sectors": [
+                {
+                    "id": 3,
+                    "value": "B2B SaaS"
+                },
+                {
+                    "id": 4,
+                    "value": "Community"
+                },
+                {
+                    "id": 5,
+                    "value": "Continuing Education"
+                },
+                {
+                    "id": 7,
+                    "value": "Developer Tools"
+                },
+                {
+                    "id": 8,
+                    "value": "Energy"
+                },
+                {
+                    "id": 9,
+                    "value": "Entertainment"
+                },
+                {
+                    "id": 10,
+                    "value": "Financial Services"
+                },
+                {
+                    "id": 11,
+                    "value": "Fitness"
+                },
+                {
+                    "id": 13,
+                    "value": "Gaming"
+                },
+                {
+                    "id": 14,
+                    "value": "Hard Tech"
+                },
+                {
+                    "id": 19,
+                    "value": "Marketplace"
+                },
+                {
+                    "id": 20,
+                    "value": "Media"
+                },
+                {
+                    "id": 22,
+                    "value": "Retail"
+                },
+                {
+                    "id": 23,
+                    "value": "Sales Enablement"
+                },
+                {
+                    "id": 25,
+                    "value": "Sustainability"
+                },
+                {
+                    "id": 26,
+                    "value": "Transportation"
+                },
+                {
+                    "id": 28,
+                    "value": "Virtual Reality / AR"
+                },
+                {
+                    "id": 29,
+                    "value": "Wellness"
+                },
+                {
+                    "id": 34,
+                    "value": "Aerospace / Space-tech"
+                },
+                {
+                    "id": 35,
+                    "value": "Robotics"
+                },
+                {
+                    "id": 36,
+                    "value": "Real Estate / Prop-tech"
+                },
+                {
+                    "id": 41,
+                    "value": "Medical Devices"
+                }
+            ],
+            "types_of_financing": [
+                {
+                    "id": 1,
+                    "value": "Equity"
+                },
+                {
+                    "id": 2,
+                    "value": "Convertible note"
+                },
+                {
+                    "id": 3,
+                    "value": "SAFE"
+                }
+            ],
+            "fund_email": "kb@allincapital.vc",
+            "thesis": "We put the first $100-300K cheque on day zero in Indian technology founders building for India and the world. Sector agnostic , pre-product, pre-revenue bets.\n\nhttps://allindiacapital.substack.com/p/hello-world",
+            "fund_type": {
+                "id": 1,
+                "value": "VC"
+            }
+        }
+    ]
+}

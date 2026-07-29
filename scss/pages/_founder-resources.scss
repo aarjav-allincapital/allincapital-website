@@ -1,0 +1,85 @@
+#founder-resources {
+    width: 1170px;
+    padding-top: 150px;
+    margin: 0 auto 75px;
+
+    @media (max-width: 1169px) {
+        width: calc(100% - 50px)
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 75px;
+        text-align: center;
+        color: $secondary;
+
+        @media (max-width: 576px) {
+            margin-bottom: 50px;
+            padding: 0 20px;
+        }
+    }
+
+    .fr-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+
+        @media (max-width: 576px) {
+            gap: 25px;
+        }
+
+        .founder-resource-card {
+            background-color: $white;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 32px;
+            flex-basis: 170px;
+
+
+            padding: 40px 25px 25px;
+            box-sizing: border-box;
+            color: $primary;
+
+            @media (max-width: 768px) {
+                width: 100%;
+                text-align: center;
+                flex-direction: column
+            }
+
+            .fr-box {
+                flex: 1;
+            }
+
+            .fr-img {
+                display: block;
+                margin: 0 auto 25px;
+                text-align: center;
+            }
+
+            h3 {
+                color: $secondary;
+                font-size: 20px;
+                line-height: 1.25;
+                margin-bottom: 5px;
+            }
+
+            p {
+                margin-bottom: 25px;
+            }
+
+            .read-more {
+                font-size: 16px;
+                padding: 15px 20px;
+            }
+
+            .coming-soon {
+                background-color: white !important;
+                color: var(--allin-red);
+            }
+        }
+    }
+}

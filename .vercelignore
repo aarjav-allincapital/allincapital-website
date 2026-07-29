@@ -1,0 +1,5 @@
+*_backup.zip
+*.zip
+.ftpquota
+.well-known
+node_modules

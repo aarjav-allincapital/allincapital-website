@@ -1,0 +1,211 @@
+.overlay {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.close-icon {
+    width: 56px;
+    height: 56px;
+    background-color: rgba($color: #000000, $alpha: 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.team-bio-popup,
+.partner-bio-popup,
+.portfolio-popup,
+.apply-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner-bio-popup {
+    .partner-img {
+        width: 160px;
+    }
+}
+
+.popup {
+    width: 570px;
+    max-height: 488px;
+    border-radius: 25px;
+    background-color: $white;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow-y: auto;
+
+    @media (max-width: 768px) {
+        width: 90%;
+        padding: 25px;
+        overflow-y: auto;
+        max-height: 75vh;
+    }
+
+    img {
+        margin-bottom: 10px;
+        aspect-ratio: 5/2;
+        object-fit: contain;
+    }
+
+    h3 {
+        margin-bottom: 2px;
+    }
+
+    .designation {
+        font-size: 12px;
+        line-height: 1.5;
+        font-family: 'sharp_grotesksemibold_20';
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.7;
+
+        a {
+            color: $secondary;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+
+    .social-icon {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+
+        li {
+            margin-right: 0;
+        }
+    }
+}
+
+.team-bio-popup {
+    p {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.portfolio-popup {
+    p {
+        padding: 0 45px;
+        margin-bottom: 25px;
+    }
+
+    .portfolio-card--content {
+        margin-bottom: 25px;
+    }
+
+    .portfolio-card--title {
+        text-decoration: none;
+    }
+}
+
+.apply-popup {
+    .popup {
+        width: 770px;
+        text-align: left;
+        overflow-y: auto;
+
+        @media (max-width: 768px) {
+            width: 90%;
+            padding: 25px;
+            max-height: 75vh;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: $secondary;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .read-more {
+            font-size: 16px;
+            padding: 15px 20px;
+            width: auto;
+
+
+            &.width_01 {
+                width: 187px;
+            }
+
+            &.width_02 {
+                width: 180px;
+            }
+
+            &.width_03 {
+                width: 245px;
+            }
+        }
+    }
+}
+
+
+
+.blocker {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    z-index: 6;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    display: none;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+    max-width: 500px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.modal a.close-modal {
+    position: absolute;
+    top: -12.5px;
+    right: -12.5px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

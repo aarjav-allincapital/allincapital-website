@@ -1,0 +1,390 @@
+.wrapper .container {
+    .allin-header-logo.header-logo {
+        display: block;
+
+        .allin-logo {
+            width: 100px;
+        }
+    }
+}
+
+.fnf-body {
+    background: $fnf-bg-color;
+    padding: 0;
+    // overflow-x: hidden;
+
+    font-family: var(--primary-font-family);
+
+    &.modal-open {
+        overflow: hidden;
+    }
+
+}
+
+
+.fnf-page-header {
+    position: inherit;
+    display: block !important;
+
+    // .container {
+    //     // height: 50px;
+    // }
+
+    .fnf-header-logo {
+        display: block !important;
+    }
+
+    .fnf-apply {
+        background: $allin-red;
+        border-radius: 40px;
+    }
+}
+
+.fnf_logo_large {
+    position: relative;
+
+    .allin-fnf-logo {
+        position: absolute;
+        z-index: 100;
+        margin: auto;
+
+        background: url("../images/logo.gif");
+
+        width: 40px;
+        left: 50px;
+        top: -15px;
+    }
+
+    @media (max-width: 768px) {
+        transform: scale(0.7);
+    }
+}
+
+a {
+    &.go-back-link {
+        color: $allin-red;
+        text-decoration: underline;
+        font-family: 'Matter';
+        font-weight: 600;
+    }
+}
+
+
+.fnf-logged-in {
+    .fnf__hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        padding: 64px 0px 64px 0px;
+
+        @media (width < 768px) {}
+
+        width: 100%;
+        // height: 640px;
+
+        background: $fnf-bg-color;
+        position: relative;
+
+        color: #FFFFFF;
+
+        &__content {
+            // background-image: url("../images/fnf/fnf_hero_lines.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+
+            width: 100%;
+            height: 100%;
+
+            background-position: center;
+
+            &__logo {
+
+                // hover
+                @include hover-animation-infinite-mixin();
+            }
+
+            &__copy h1 {
+
+                width: 705px;
+                height: 75px;
+                font-family: var(--primary-font-family);
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 125%;
+                text-align: center;
+
+                color: #FFFFFF;
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                    font-size: 32px;
+                    height: 100%;
+                }
+            }
+
+            &__apply-now {
+                p {
+                    padding: 4px;
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 125%;
+                    /* identical to box height, or 40px */
+
+                    text-align: center;
+
+                    /* Vidit/gradient 2 */
+
+                    background: linear-gradient(65.93deg, #39A3C8 11.77%, #873287 45.28%, #FF6E29 77.26%, #FFBC3F 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                }
+            }
+        }
+    }
+
+    .fnf-main-content {
+        background-color: #ffffff;
+
+        .fnf-vcs-list-view {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+
+            // flex column for mobile
+            @media (max-width: 768px) {
+                flex-direction: column;
+            }
+
+            // border: var(--test-border-size) solid var(--test-border-color);
+
+
+        }
+
+    }
+
+    .fnf-vcs-list {
+        border-left: var(--test-border-size) solid var(--test-border-color);
+        // width: 75%;
+        flex: 3.5;
+        padding-top: $fnf-list-view-top-padding;
+
+
+        .fnf-vcs-list-inner {
+            padding: $fnf-list-view-padding;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+        }
+    }
+
+    // .accordion {
+    //     // background-color: #eee;
+    //     color: #444;
+    //     cursor: pointer;
+    //     text-align: left;
+    //     border: none;
+    //     outline: none;
+    //     transition: 0.4s;
+
+    //     label {
+    //         cursor: pointer;
+    //         // disable text selection
+    //         user-select: none;
+    //     }
+    // }
+
+    // /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    // .active,
+    // .accordion:hover {
+    //     transform: scale(1.01);
+    // }
+
+    // /* Style the accordion panel. Note: hidden by default */
+    // .panel {
+    //     background-color: white;
+    //     overflow: hidden;
+    //     transition: max-height 0.2s ease-out;
+    //     max-height: 0;
+
+    // }
+
+    .vclist-loader {
+        &.active {
+            display: flex;
+        }
+
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: none;
+
+        img {
+            width: 200px;
+        }
+    }
+
+    .loading {
+        display: none;
+    }
+
+
+    @media (max-width: 768px) {
+        .fnf__hero {
+            .background-image {
+                height: 100% !important;
+                overflow: hidden;
+                top: 0;
+                $left-padding: 20%;
+                padding-left: $left-padding;
+                width: calc(100% - #{$left-padding});
+
+
+                .background-image-left {
+                    display: none !important;
+                }
+
+                .background-image-right {
+                    opacity: 0.4;
+
+                    img {
+                        object-fit: contain;
+                    }
+                }
+            }
+
+            &__content {
+                padding: 8px 16px;
+                align-items: flex-start;
+                width: calc(100% - 2 * 16px);
+
+                h1 {
+                    text-align: left;
+                }
+
+                &__apply-now {
+                    display: none;
+                }
+            }
+        }
+
+        .fnf-vcs-list {
+            .fnf-vcs-list-inner {
+                padding-left: 12px;
+                padding-right: 12px;
+
+                .vcs-search-result-cards {
+                    max-height: max-content;
+                    padding-right: 0px;
+                }
+            }
+        }
+    }
+
+}
+
+
+.fnf-filters {
+    // width: 25%;
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    user-select: none;
+
+    .fnf-filter {
+        // height: 200px;
+        border-bottom: var(--test-border-size) solid var(--test-border-color);
+        padding: $fnf-list-view-padding;
+
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .fnf-filter-header {
+            font-family: var(--primary-font-family);
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 24px;
+            /* identical to box height, or 171% */
+
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* Text/secondary */
+
+            color: $fnf-secondary-text-color;
+
+        }
+
+        .fnf-filter-body {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+
+            .apply-cheque-slider {
+                text-align: center;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 100%;
+                text-transform: uppercase;
+                color: $allin-red;
+                @include div-as-a-mixin();
+
+            }
+
+            ul {
+                li {
+                    &.hidden {
+                        display: none;
+                    }
+                }
+            }
+
+
+
+
+            .fnf-cheque-slider {
+                display: flex;
+                flex-direction: column;
+
+                .fnf-cheque-range {
+                    font-family: var(--primary-font-family);
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    display: flex;
+                    justify-content: space-between;
+
+                }
+            }
+
+            .fnf-fund-tags {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+    }
+
+}
+
+
+@import "./fnf-modal";
+@include navbar-mixin($fnf-bg-color, $navbar-height);

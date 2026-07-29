@@ -1,0 +1,134 @@
+$navbar-button-width: 70px;
+
+.home-bg .page-header {
+    display: none;
+}
+
+.portfolio-page .page-header {
+    background-color: #EFEFEF;
+}
+
+.page-header {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 13;
+
+    .container {
+        width: 920px;
+        display: flex;
+        justify-content: space-between;
+        height: 99px;
+        align-items: center;
+        position: relative;
+        z-index: 13;
+
+        &.centered {
+            justify-content: center;
+        }
+
+        @media (max-width: 980px) {
+            width: calc(100% - 50px);
+            margin: 0 25px;
+        }
+    }
+
+
+    .main-menu,
+    .apply {
+        width: $navbar-button-width;
+
+        @media (max-width: 768px) {
+            width: $navbar-button-width;
+            padding: 10px;
+        }
+    }
+
+    .apply {
+        width: $navbar-button-width;
+
+        @media (max-width: 768px) {
+            width: $navbar-button-width;
+            padding: 10px;
+        }
+    }
+
+    .close-menu {
+        display: none;
+        width: $navbar-button-width;
+
+        @media (max-width: 768px) {
+            width: $navbar-button-width;
+            padding: 10px;
+        }
+    }
+
+    .header-logo {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+        width: 100%;
+        height: 100vh;
+        color: $secondary;
+        position: absolute;
+        z-index: 12;
+        background-color: $body-bg;
+        text-align: center;
+        box-sizing: border-box;
+        top: 0;
+
+        .menu {
+            height: calc(100svh - 120px);
+            height: 100svh;
+            // height: 99%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        a {
+            color: $secondary;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            &.main-links {
+                margin-bottom: 20px;
+
+                li {
+                    margin-bottom: 55px;
+                    font-size: 40px;
+                    line-height: 1;
+                    transform: rotate(8deg);
+                    transition: all ease 0.3s;
+                    font-family: 'sharp_grotesksemibold_20';
+
+                    &:nth-child(even) {
+                        transform: rotate(-8deg);
+                    }
+
+                    &:hover {
+                        transform: rotate(0deg);
+
+                    }
+                }
+            }
+
+            &.social-icons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}

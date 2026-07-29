@@ -1,0 +1,13 @@
+.allstars-view {
+    display: none !important;
+    opacity: 0;
+
+    @include fadeAnimationMixin;
+
+    &.active {
+        display: flex !important;
+        opacity: 1;
+
+        // animation
+    }
+}

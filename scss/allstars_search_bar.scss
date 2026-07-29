@@ -1,0 +1,102 @@
+$search-secondary-color: hsla(0, 0%, 50%, 0.4);
+$search-bar-height: 3rem;
+$search-bar-sticky-box-shadow: 10px 10px 47px 0px
+  rgba(0, 0, 0, var(--_shadow-opacity));
+
+.search-bar {
+  border-radius: 2rem;
+  --_shadow-opacity: 0;
+  transition: all 0.1s ease-in-out;
+  margin-right: 8px;
+  &:focus-within {
+    transform: scale(1.01);
+    transition: all 0.1s ease-in-out;
+  }
+
+  &.sticky {
+    --_shadow-opacity: 0.1;
+    position: sticky !important;
+    top: 3px;
+    left: 0;
+    right: 0;
+    z-index: 6;
+    -webkit-box-shadow: $search-bar-sticky-box-shadow;
+    -moz-box-shadow: $search-bar-sticky-box-shadow;
+    box-shadow: $search-bar-sticky-box-shadow;
+  }
+
+  .search-input-wrapper {
+    position: relative;
+    .blur-bg {
+      width: 100%;
+      height: $search-bar-height;
+      position: absolute;
+      border-radius: 2rem;
+      backdrop-filter: blur(8px);
+      background-color: hsla(0, 0%, 100%, 0.8);
+    }
+  }
+
+  .search-input {
+    background-color: transparent;
+    position: inherit;
+    opacity: 1;
+    z-index: inherit;
+    $padding: 1.5rem;
+    padding: 0 $padding;
+    width: calc(100% - 2 * $padding);
+    height: $search-bar-height;
+    border-radius: 2rem;
+    border: 1px solid $search-secondary-color;
+    transition: transform 0.1s ease-in-out;
+    color: rgb(34, 34, 34);
+    font-size: 0.95rem;
+  }
+
+  .search-input::placeholder {
+    color: $search-secondary-color;
+    // ellipsis
+  }
+
+  /* hide the placeholder text on focus */
+  // :focus::placeholder {
+  //   text-indent: -999px;
+  // }
+
+  .search-input:focus {
+    outline: none;
+    // transform: scale(1.01);
+    // transition: all 0.1s ease-in-out;
+  }
+
+  .search-input-icon {
+    position: absolute;
+    right: 1rem;
+    top: calc(50% - 0.5rem);
+    color: #a1a1a1;
+    transition: all 0.1s ease-in-out;
+    border-radius: 50%;
+  }
+
+  // .search-input-icon:focus {
+  //   right: 0.3rem;
+  //   transform: scale(2);
+  // }
+}
+
+@media (width < 768px) {
+  .search-bar {
+    // display: none;
+    &.active {
+      display: block;
+    }
+
+    &.sticky {
+      top: 150px;
+    }
+
+    input:placeholder-shown {
+      text-overflow: ellipsis;
+    }
+  }
+}

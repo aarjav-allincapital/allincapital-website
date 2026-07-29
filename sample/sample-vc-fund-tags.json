@@ -1,0 +1,448 @@
+{
+    "tags": {
+        "fund_types": [
+            {
+                "id": 1,
+                "value": "VC"
+            },
+            {
+                "id": 2,
+                "value": "Incubator, Accelerator"
+            },
+            {
+                "id": 3,
+                "value": "Corporate VC"
+            },
+            {
+                "id": 4,
+                "value": "Family Office"
+            },
+            {
+                "id": 5,
+                "value": "Angel Network"
+            },
+            {
+                "id": 6,
+                "value": "PE Fund"
+            }
+        ],
+        "sectors": [
+            {
+                "id": 1,
+                "value": "Adtech"
+            },
+            {
+                "id": 2,
+                "value": "Agriculture / Agri-tech"
+            },
+            {
+                "id": 3,
+                "value": "B2B SaaS"
+            },
+            {
+                "id": 4,
+                "value": "Community"
+            },
+            {
+                "id": 5,
+                "value": "Continuing Education"
+            },
+            {
+                "id": 6,
+                "value": "Crypto / Blockchain / Web3"
+            },
+            {
+                "id": 7,
+                "value": "Developer Tools"
+            },
+            {
+                "id": 8,
+                "value": "Energy"
+            },
+            {
+                "id": 9,
+                "value": "Entertainment"
+            },
+            {
+                "id": 10,
+                "value": "Financial Services"
+            },
+            {
+                "id": 11,
+                "value": "Fitness"
+            },
+            {
+                "id": 12,
+                "value": "Food/Beverage"
+            },
+            {
+                "id": 13,
+                "value": "Gaming"
+            },
+            {
+                "id": 14,
+                "value": "Hard Tech"
+            },
+            {
+                "id": 15,
+                "value": "Hardware"
+            },
+            {
+                "id": 16,
+                "value": "Healthcare"
+            },
+            {
+                "id": 17,
+                "value": "Insurance"
+            },
+            {
+                "id": 18,
+                "value": "Language Learning"
+            },
+            {
+                "id": 19,
+                "value": "Marketplace"
+            },
+            {
+                "id": 20,
+                "value": "Media"
+            },
+            {
+                "id": 21,
+                "value": "Mental Health"
+            },
+            {
+                "id": 22,
+                "value": "Retail"
+            },
+            {
+                "id": 23,
+                "value": "Sales Enablement"
+            },
+            {
+                "id": 24,
+                "value": "Security"
+            },
+            {
+                "id": 25,
+                "value": "Sustainability"
+            },
+            {
+                "id": 26,
+                "value": "Transportation"
+            },
+            {
+                "id": 27,
+                "value": "Travel/Tourism"
+            },
+            {
+                "id": 28,
+                "value": "Virtual Reality / AR"
+            },
+            {
+                "id": 29,
+                "value": "Wellness"
+            },
+            {
+                "id": 30,
+                "value": "Analytics"
+            },
+            {
+                "id": 31,
+                "value": "K-12"
+            },
+            {
+                "id": 32,
+                "value": "Recruiting / HR-tech"
+            },
+            {
+                "id": 33,
+                "value": "Other"
+            },
+            {
+                "id": 34,
+                "value": "Aerospace / Space-tech"
+            },
+            {
+                "id": 35,
+                "value": "Robotics"
+            },
+            {
+                "id": 36,
+                "value": "Real Estate / Prop-tech"
+            },
+            {
+                "id": 37,
+                "value": "Biotech"
+            },
+            {
+                "id": 38,
+                "value": "Freight"
+            },
+            {
+                "id": 39,
+                "value": "Construction"
+            },
+            {
+                "id": 40,
+                "value": "Government"
+            },
+            {
+                "id": 41,
+                "value": "Medical Devices"
+            },
+            {
+                "id": 42,
+                "value": "Adtech"
+            },
+            {
+                "id": 43,
+                "value": "B2B SaaS"
+            },
+            {
+                "id": 44,
+                "value": "Hard Tech"
+            },
+            {
+                "id": 45,
+                "value": "Analytics"
+            },
+            {
+                "id": 46,
+                "value": "Financial Services"
+            },
+            {
+                "id": 47,
+                "value": "Retail"
+            },
+            {
+                "id": 48,
+                "value": "Marketplace"
+            },
+            {
+                "id": 49,
+                "value": "Insurance"
+            },
+            {
+                "id": 50,
+                "value": "Community"
+            },
+            {
+                "id": 51,
+                "value": "Continuing Education"
+            },
+            {
+                "id": 52,
+                "value": "Transportation"
+            },
+            {
+                "id": 53,
+                "value": "Travel/Tourism"
+            },
+            {
+                "id": 54,
+                "value": "Aerospace / Space-tech"
+            },
+            {
+                "id": 55,
+                "value": "Agriculture / Agri-tech"
+            },
+            {
+                "id": 56,
+                "value": "Media"
+            },
+            {
+                "id": 57,
+                "value": "Fitness"
+            },
+            {
+                "id": 58,
+                "value": "Entertainment"
+            },
+            {
+                "id": 59,
+                "value": "Food/Beverage"
+            },
+            {
+                "id": 60,
+                "value": "Freight"
+            },
+            {
+                "id": 61,
+                "value": "Gaming"
+            },
+            {
+                "id": 62,
+                "value": "Healthcare"
+            },
+            {
+                "id": 63,
+                "value": "Wellness"
+            },
+            {
+                "id": 64,
+                "value": "Crypto / Blockchain / Web3"
+            },
+            {
+                "id": 65,
+                "value": "K-12"
+            },
+            {
+                "id": 66,
+                "value": "Other"
+            },
+            {
+                "id": 67,
+                "value": "Mental Health"
+            },
+            {
+                "id": 68,
+                "value": "Real Estate / Prop-tech"
+            },
+            {
+                "id": 69,
+                "value": "Recruiting / HR-tech"
+            },
+            {
+                "id": 70,
+                "value": "Construction"
+            },
+            {
+                "id": 71,
+                "value": "Developer Tools"
+            },
+            {
+                "id": 72,
+                "value": "Biotech"
+            },
+            {
+                "id": 73,
+                "value": "Robotics"
+            },
+            {
+                "id": 74,
+                "value": "Energy"
+            },
+            {
+                "id": 75,
+                "value": "Sustainability"
+            },
+            {
+                "id": 76,
+                "value": "Hardware"
+            },
+            {
+                "id": 77,
+                "value": "Virtual Reality / AR"
+            },
+            {
+                "id": 78,
+                "value": "Medical Devices"
+            },
+            {
+                "id": 79,
+                "value": "Government"
+            },
+            {
+                "id": 80,
+                "value": "Sales Enablement"
+            }
+        ],
+        "stages": [
+            {
+                "id": 12,
+                "value": "Prototype (generally seed/pre-series A)"
+            },
+            {
+                "id": 13,
+                "value": "Early Revenue (generally pre-series A/series A)"
+            },
+            {
+                "id": 14,
+                "value": "Ideation (generally pre-seed/seed)"
+            },
+            {
+                "id": 15,
+                "value": "Scaling (generally series A and beyond)"
+            },
+            {
+                "id": 16,
+                "value": "Growth"
+            },
+            {
+                "id": 17,
+                "value": "Pre-IPO"
+            },
+            {
+                "id": 18,
+                "value": "Ideation (generally pre-seed/seed)"
+            },
+            {
+                "id": 19,
+                "value": "Prototype (generally seed/pre-series A)"
+            },
+            {
+                "id": 20,
+                "value": "Early Revenue (generally pre-series A/series A)"
+            },
+            {
+                "id": 21,
+                "value": "Scaling (generally series A and beyond)"
+            },
+            {
+                "id": 22,
+                "value": "Growth"
+            },
+            {
+                "id": 23,
+                "value": "Pre-IPO"
+            }
+        ],
+        "types_of_financing": [
+            {
+                "id": 1,
+                "value": "Equity"
+            },
+            {
+                "id": 2,
+                "value": "Convertible note"
+            },
+            {
+                "id": 3,
+                "value": "SAFE"
+            },
+            {
+                "id": 4,
+                "value": "Debt"
+            },
+            {
+                "id": 5,
+                "value": "Open to all options"
+            },
+            {
+                "id": 6,
+                "value": "Open to all options"
+            },
+            {
+                "id": 7,
+                "value": "Equity"
+            },
+            {
+                "id": 8,
+                "value": "Convertible note"
+            },
+            {
+                "id": 9,
+                "value": "SAFE"
+            },
+            {
+                "id": 10,
+                "value": "Debt"
+            }
+        ]
+    },
+    "cheque_sizes": {
+        "min": 0,
+        "max": 200000000
+    }
+}

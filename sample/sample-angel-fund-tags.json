@@ -1,0 +1,182 @@
+{
+    "tags": {
+        "expertises": [
+            {
+                "id": 3,
+                "value": "B2B Growth"
+            },
+            {
+                "id": 2,
+                "value": "Consumer Growth"
+            },
+            {
+                "id": 10,
+                "value": "Data Science"
+            },
+            {
+                "id": 8,
+                "value": "Fund Raising"
+            },
+            {
+                "id": 11,
+                "value": "Hardware"
+            },
+            {
+                "id": 5,
+                "value": "Org Design"
+            },
+            {
+                "id": 4,
+                "value": "Product Design"
+            },
+            {
+                "id": 7,
+                "value": "SAAS GTM"
+            },
+            {
+                "id": 6,
+                "value": "Sales"
+            },
+            {
+                "id": 9,
+                "value": "Strategy"
+            },
+            {
+                "id": 1,
+                "value": "Technology"
+            }
+        ],
+        "sectors": [
+            {
+                "id": 4,
+                "value": "D2C Brands"
+            },
+            {
+                "id": 10,
+                "value": "Deep Tech"
+            },
+            {
+                "id": 2,
+                "value": "Dev-Tools"
+            },
+            {
+                "id": 9,
+                "value": "Ecommerce"
+            },
+            {
+                "id": 5,
+                "value": "EdTech"
+            },
+            {
+                "id": 6,
+                "value": "FinTech"
+            },
+            {
+                "id": 8,
+                "value": "Gaming"
+            },
+            {
+                "id": 11,
+                "value": "HealthCare"
+            },
+            {
+                "id": 3,
+                "value": "India Consumer Internet"
+            },
+            {
+                "id": 1,
+                "value": "SAAS"
+            },
+            {
+                "id": 7,
+                "value": "Web3"
+            }
+        ],
+        "locations": [
+            {
+                "id": 10,
+                "value": "Austin"
+            },
+            {
+                "id": 14,
+                "value": "Being"
+            },
+            {
+                "id": 2,
+                "value": "Bengaluru"
+            },
+            {
+                "id": 12,
+                "value": "Berlin"
+            },
+            {
+                "id": 4,
+                "value": "Chennai"
+            },
+            {
+                "id": 11,
+                "value": "Dallas"
+            },
+            {
+                "id": 3,
+                "value": "Delhi/NCR"
+            },
+            {
+                "id": 19,
+                "value": "Dubai"
+            },
+            {
+                "id": 15,
+                "value": "Goa"
+            },
+            {
+                "id": 6,
+                "value": "Hyderabad"
+            },
+            {
+                "id": 17,
+                "value": "Jakarta"
+            },
+            {
+                "id": 7,
+                "value": "Kolkatta"
+            },
+            {
+                "id": 18,
+                "value": "London"
+            },
+            {
+                "id": 20,
+                "value": "Los Angeles"
+            },
+            {
+                "id": 13,
+                "value": "Madrid"
+            },
+            {
+                "id": 1,
+                "value": "Mumbai"
+            },
+            {
+                "id": 9,
+                "value": "New York"
+            },
+            {
+                "id": 5,
+                "value": "Pune"
+            },
+            {
+                "id": 8,
+                "value": "San Francisco"
+            },
+            {
+                "id": 16,
+                "value": "Singapore"
+            }
+        ]
+    },
+    "cheque_sizes": {
+        "min": 103151,
+        "max": 9867582
+    }
+}

@@ -1,0 +1,30 @@
+footer {
+    font-size: 10px;
+    line-height: 1.5;
+    color: $primary;
+    text-align: center;
+    font-family: 'sharp_groteskbook_20';
+
+    p {
+        font-size: 10px;
+        line-height: 1.5;
+        margin-bottom: 2px;
+    }
+
+    a {
+        color: $primary;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+
+        &.social-icons {
+            margin-bottom: 50px;
+        }
+    }
+}
