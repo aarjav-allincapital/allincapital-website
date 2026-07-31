@@ -118,9 +118,8 @@ const createCategoryHeader = (categoryName) => {
   const header = document.createElement('h2');
   header.classList.add('portfolio-category-title');
   header.textContent = categoryName;
-  header.setAttribute('role', 'heading');
-  header.setAttribute('aria-level', '2');
-  
+  // <h2> is already a level-2 heading
+
   // Add inline styles to ensure visibility
 //   header.style.cssText = `
 //     font-size: 1.8rem;
@@ -145,17 +144,16 @@ const createPortfolioCard = (item) => {
   portfolio_card.rel = 'noopener noreferrer'; // Security best practice
   portfolio_card.classList.add('portfolio-card');
 
-  // WCAG: Accessible link description
-  portfolio_card.setAttribute('aria-label', `Visit ${item.name} website - ${item.notes}`);
-  portfolio_card.setAttribute('title', `${item.name} - ${item.sectors}`);
+  // no aria-label: the card is named by its own visible text
+  portfolio_card.setAttribute('aria-haspopup', 'dialog');
 
   const portfolio_card_logo = document.createElement('div');
   portfolio_card_logo.classList.add('portfolio-card--logo');
-  portfolio_card_logo.setAttribute('aria-hidden', 'true'); // Logo is decorative, screen readers will use card aria-label
+  portfolio_card_logo.setAttribute('aria-hidden', 'true'); // decorative
 
   const portfolio_card_logo_img = document.createElement('img');
   portfolio_card_logo_img.src = item.logo;
-  portfolio_card_logo_img.alt = `${item.name} company logo`;
+  portfolio_card_logo_img.alt = '';
 
   // WCAG and Performance attributes
   portfolio_card_logo_img.loading = 'lazy'; // Lazy loading
@@ -164,7 +162,6 @@ const createPortfolioCard = (item) => {
   // Add error handling for missing images
   portfolio_card_logo_img.onerror = function () {
     this.src = '/company_portfolio/default.png';
-    this.alt = `Default placeholder image for ${item.name}`;
   };
 
   portfolio_card_logo.appendChild(portfolio_card_logo_img);
@@ -172,21 +169,18 @@ const createPortfolioCard = (item) => {
   const portfolio_card_content = document.createElement('div');
   portfolio_card_content.classList.add('portfolio-card--content');
 
+  // plain text — these sit inside the card's <a>
   const portfolio_card_title = document.createElement('span');
   portfolio_card_title.classList.add('portfolio-card--title');
   portfolio_card_title.textContent = item.name;
-  portfolio_card_title.setAttribute('aria-level', '3'); // Semantic heading level
-  portfolio_card_title.setAttribute('role', 'heading');
 
   const portfolio_card_category = document.createElement('span');
   portfolio_card_category.classList.add('portfolio-card--category');
   portfolio_card_category.textContent = item.sectors;
-  portfolio_card_category.setAttribute('aria-label', `Industry sector: ${item.sectors}`);
 
   const portfolio_card_notes = document.createElement('span');
   portfolio_card_notes.classList.add('portfolio-card--notes');
   portfolio_card_notes.textContent = item.notes;
-  portfolio_card_notes.setAttribute('aria-label', `Company description: ${item.notes}`);
 
   portfolio_card_content.appendChild(portfolio_card_title);
   portfolio_card_content.appendChild(portfolio_card_category);

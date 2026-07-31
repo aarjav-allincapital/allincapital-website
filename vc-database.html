@@ -26,11 +26,13 @@
     <link rel="stylesheet" href="css/double_slider.css" />
     <link rel="stylesheet" href="css/allstars_search_bar.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/accessibility.css" />
     <title> Investor Network | All In Capital </title>
 </head>
 
 <body class="fnf-body" id="fnf-body">
-    <main-content>
+	<a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="page-main-wrapper">
         <div class="fnf-loading fnf-view active " id="fnf-loading-view">
             <img src="images/logo.gif" alt="All In" class="loader-logo" />
         </div>
@@ -42,26 +44,26 @@
             <div class="wrapper">
                 <header class="fnf-page-header page-header " id="navbar">
                     <div class="container">
-                        <a href="#" class="btn btn-secondary main-menu">
+                        <button type="button" class="btn btn-secondary main-menu" aria-controls="menu" aria-expanded="false" aria-label="Open menu">
                             <div class="marquee__inner" aria-hidden="true">
                                 <span>Menu</span>
                                 <span>Menu</span>
                                 <span>Menu</span>
                                 <span>Menu</span>
                             </div>
-                        </a>
-                        <a href="#" class="btn btn-secondary close-menu">
+                        </button>
+                        <button type="button" class="btn btn-secondary close-menu" aria-controls="menu" aria-expanded="true" aria-label="Close menu">
                             <div class="marquee__inner" aria-hidden="true">
                                 <span>Close</span>
                                 <span>Close</span>
                                 <span>Close</span>
                                 <span>Close</span>
                             </div>
-                        </a>
-                        <a href="/" class="allin-header-logo header-logo">
+                        </button>
+                        <a href="/" class="allin-header-logo header-logo" aria-label="All In Capital, home">
                             <img src="images/logo.gif" alt="All In" class="logo allin-logo" />
                         </a>
-                        <button class="btn btn-primary apply fnf-apply" id="logout-button">
+                        <button class="btn btn-primary apply fnf-apply" id="logout-button" aria-label="Logout">
                             <div class="marquee__inner" aria-hidden="true">
                                 <span>Logout</span>
                                 <span>Logout</span>
@@ -70,7 +72,7 @@
                             </div>
                         </button>
                     </div>
-                    <div id="menu">
+                    <div id="menu" role="navigation" aria-label="Main">
                         <div class="menu" style="padding-top: 120px;">
                             <ul class="main-links">
                                 <li><a href="portfolio">Portfolio</a></li>
@@ -81,10 +83,10 @@
                             </ul>
                             <ul class="social-icons">
                                 <li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y="
-                                        target="_blank"><img src="images/icon-instagram.svg" alt="" /></a></li>
-                                <li><a href="https://twitter.com/All_IN_Capital" target="_blank"><img
+                                        target="_blank" aria-label="All In Capital on Instagram"><img src="images/icon-instagram.svg" alt="" /></a></li>
+                                <li><a href="https://twitter.com/All_IN_Capital" target="_blank" aria-label="All In Capital on X (Twitter)"><img
                                             src="images/icon-twitter.svg" alt="" /></a></li>
-                                <li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank"><img
+                                <li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank" aria-label="All In Capital on LinkedIn"><img
                                             src="images/icon-linkedin.svg" alt="" /></a></li>
                             </ul>
                         </div>
@@ -110,7 +112,7 @@
                         </div>
                     </section>
                 </div>
-                <main class="fnf-main-content main-content">
+                <main class="fnf-main-content main-content" id="main-content" tabindex="-1">
                     <div class="search-result-info search-result-info__mobile">
                         <span></span>
                         <div class="show-filters">
@@ -294,11 +296,11 @@
 
                     <div class="container">
                         <ul class="social-icons">
-                            <li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank"><img
+                            <li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank" aria-label="All In Capital on Instagram"><img
                                         src="images/icon-instagram.svg" alt="" /></a></li>
-                            <li><a href="https://twitter.com/All_IN_Capital" target="_blank"><img
+                            <li><a href="https://twitter.com/All_IN_Capital" target="_blank" aria-label="All In Capital on X (Twitter)"><img
                                         src="images/icon-twitter.svg" alt="" /></a></li>
-                            <li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank"><img
+                            <li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank" aria-label="All In Capital on LinkedIn"><img
                                         src="images/icon-linkedin.svg" alt="" /></a></li>
                         </ul>
                         <p>&copy; Copyright 2022, Allin Capital LLC</p>
@@ -314,7 +316,7 @@
                 </div>
             </div>
         </div>
-    </main-content>
+    </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
@@ -324,6 +326,15 @@
     <script src="js/common.js"></script>
     <!-- <script src="js/fnf/double_slider.js"></script> -->
     <script src="js/build/fnf.js?v=10" type="module"></script>
+	<script src="js/accessibility.js"></script>
+	<!-- EnableUser accessibility widget -->
+	<script>
+		window.ENABLESTACK_CONFIG = {
+			colors: { primary: '#C62F2B' },
+			widgetPosition: { side: 'left' }
+		};
+	</script>
+	<script src="js/enablestack-widget.js"></script>
 </body>
 
 </html>

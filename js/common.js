@@ -56,9 +56,11 @@ $(document).ready(function () {
 				autoplayHoverPause: true,
 			},
 			1100: {
-				loop: false,
-				autoplay: false,
-				autoplayHoverPause: false,
+				// autoplay on desktop too; owl's default 5s timeout is calmer
+				// than the 1.5s used on mobile
+				loop: true,
+				autoplay: true,
+				autoplayHoverPause: true,
 			}
 		}
 	});

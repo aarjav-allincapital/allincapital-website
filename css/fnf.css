@@ -72,11 +72,11 @@ body {
   --test-border-color: #b4b4b43a;
   --test-border-size: 1px;
   --primary-font-family: "Matter";
-  --allin-red: #FF534F;
+  --allin-red: #C62F2B;
 }
 
 .btn-primary {
-  background-color: #FF534F;
+  background-color: #C62F2B;
   padding: 10px 0px;
   display: inline-block;
   font-weight: 600;
@@ -93,12 +93,12 @@ body {
   }
 }
 .btn-secondary {
-  border: 2px solid #888;
+  border: 2px solid #666;
   padding: 10px 0px;
   display: inline-block;
   font-weight: 600;
   text-transform: uppercase;
-  color: #888;
+  color: #666;
   border-radius: 40px;
   font-family: "sharp_grotesksemibold_20";
   font-size: 14px;
@@ -111,7 +111,7 @@ body {
 }
 
 button {
-  background-color: #FF534F;
+  background-color: #C62F2B;
   padding: 15px 25px;
   display: inline-block;
   font-weight: 600;
@@ -427,7 +427,7 @@ table {
   display: none;
   width: 100%;
   height: 100vh;
-  color: #FF534F;
+  color: #C62F2B;
   position: absolute;
   z-index: 12;
   background-color: #1f1f1f;
@@ -446,7 +446,7 @@ table {
   overflow-x: hidden;
 }
 .page-header #menu a {
-  color: #FF534F;
+  color: #C62F2B;
 }
 .page-header #menu ul {
   list-style: none;
@@ -510,7 +510,7 @@ table {
   margin-top: 10px;
 }
 .banner h1 span {
-  color: #FF534F;
+  color: #C62F2B;
   font-style: italic;
   position: relative;
   display: inline-block;
@@ -611,7 +611,7 @@ footer ul.social-icons {
   text-align: center;
 }
 .apply-here a {
-  color: #FF534F;
+  color: #C62F2B;
   font-family: "sharp_groteskSBdIt20";
 }
 .apply-here .strike {
@@ -700,7 +700,7 @@ footer ul.social-icons {
   line-height: 1.7;
 }
 .popup p a {
-  color: #FF534F;
+  color: #C62F2B;
 }
 .popup p a:hover {
   color: #313131;
@@ -749,7 +749,7 @@ footer ul.social-icons {
 }
 .apply-popup .popup h2 {
   margin-bottom: 15px;
-  color: #FF534F;
+  color: #C62F2B;
 }
 .apply-popup .popup p {
   font-size: 16px;
@@ -921,7 +921,7 @@ img {
 }
 
 a.hover-effect {
-  color: #FF534F;
+  color: #C62F2B;
   font-size: 16px;
   display: inline-block;
   position: relative;
@@ -933,12 +933,12 @@ a.hover-effect::after {
   margin: auto;
   height: 3px;
   width: 100%;
-  background: #FF534F;
+  background: #C62F2B;
   transition: width 0.5s ease, background-color 0.5s ease;
 }
 a.hover-effect:hover:after {
   width: 33%;
-  background: #FF534F;
+  background: #C62F2B;
 }
 
 .container-wide {
@@ -1062,7 +1062,7 @@ blockquote::before {
 }
 
 .btn-primary {
-  background-color: #FF534F;
+  background-color: #C62F2B;
   padding: 10px 0px;
   display: inline-block;
   font-weight: 600;
@@ -1079,12 +1079,12 @@ blockquote::before {
   }
 }
 .btn-secondary {
-  border: 2px solid #888;
+  border: 2px solid #666;
   padding: 10px 0px;
   display: inline-block;
   font-weight: 600;
   text-transform: uppercase;
-  color: #888;
+  color: #666;
   border-radius: 40px;
   font-family: "sharp_grotesksemibold_20";
   font-size: 14px;
@@ -1097,7 +1097,7 @@ blockquote::before {
 }
 
 button {
-  background-color: #FF534F;
+  background-color: #C62F2B;
   padding: 15px 25px;
   display: inline-block;
   font-weight: 600;
@@ -1439,7 +1439,7 @@ main-content .fnf-auth-sidebar-card {
   right: -90px;
   top: calc(50% - 170px - 0px);
   background: #FFFFFF;
-  border: 1px solid #FF534F;
+  border: 1px solid #C62F2B;
   border-radius: 25px;
 }
 @media (max-width: 960px) {
@@ -1464,13 +1464,13 @@ main-content .fnf-auth-sidebar .sidebar-card-image .sidebar-header {
   line-height: 125%;
   /* identical to box height, or 30px */
   text-align: center;
-  color: #FF534F;
+  color: #C62F2B;
 }
 main-content .fnf-auth-sidebar .sidebar-card-copy a {
   font-family: "sharp_groteskmedium_20";
   font-weight: 600;
   text-decoration-line: underline;
-  color: #FF534F;
+  color: #C62F2B;
 }
 
 .auth-form-label p,
@@ -1590,7 +1590,7 @@ label.auth-form-label {
 
 form .form-error {
   font-size: 12px;
-  color: #FF534F;
+  color: #C62F2B;
   line-height: 14px;
 }
 form .form-error i {
@@ -2348,7 +2348,7 @@ a.go-back-link {
   flex: 1;
 }
 .fnf-footer .container p {
-  color: rgb(95, 95, 95);
+  color: rgb(148, 148, 148);
 }
 .fnf-footer ul.social-icons {
   margin-bottom: 0px !important;
@@ -2648,7 +2648,7 @@ a.go-back-link {
   line-height: 100%;
   text-align: center;
   text-transform: uppercase;
-  color: #FF534F;
+  color: #C62F2B;
 }
 
 .super-large {
@@ -2675,7 +2675,7 @@ a.go-back-link {
   font-size: 14px;
   line-height: 20px;
   /* identical to box height, or 143% */
-  color: #FF534F;
+  color: #C62F2B;
   text-transform: none;
   cursor: pointer;
 }

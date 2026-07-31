@@ -141,7 +141,7 @@ table {
   --test-border-color: #b4b4b43a;
   --test-border-size: 1px;
   --primary-font-family: "Matter";
-  --allin-red: #FF534F;
+  --allin-red: #C62F2B;
 }
 
 @font-face {
@@ -287,7 +287,7 @@ table {
   display: none;
   width: 100%;
   height: 100vh;
-  color: #FF534F;
+  color: #C62F2B;
   position: absolute;
   z-index: 12;
   background-color: #1f1f1f;
@@ -306,7 +306,7 @@ table {
   overflow-x: hidden;
 }
 .page-header #menu a {
-  color: #FF534F;
+  color: #C62F2B;
 }
 .page-header #menu ul {
   list-style: none;
@@ -370,7 +370,7 @@ table {
   margin-top: 10px;
 }
 .banner h1 span {
-  color: #FF534F;
+  color: #C62F2B;
   font-style: italic;
   position: relative;
   display: inline-block;
@@ -380,7 +380,7 @@ table {
   left: 0;
   width: 100%;
 }
-.banner img.arrow-move {
+.banner .arrow-move {
   cursor: pointer;
   animation: mover 1s infinite alternate;
 }
@@ -744,7 +744,7 @@ footer ul.social-icons {
   text-align: center;
 }
 .apply-here a {
-  color: #FF534F;
+  color: #C62F2B;
   font-family: "sharp_groteskSBdIt20";
 }
 .apply-here .strike {
@@ -810,7 +810,7 @@ footer ul.social-icons {
   display: flex;
 }
 .founder-stories-cards .founder-card:hover {
-  border: 2px solid #FF534F;
+  border: 2px solid #C62F2B;
   background-color: #fff;
 }
 .founder-stories-cards .founder-card:hover p {
@@ -825,8 +825,8 @@ footer ul.social-icons {
   overflow: hidden;
   border-radius: 15px;
 }
-.founder-stories-cards .founder-card h4 {
-  color: #FF534F;
+.founder-stories-cards .founder-card h3 {
+  color: #C62F2B;
 }
 .founder-stories-cards .founder-card p {
   margin-bottom: 15px;
@@ -980,8 +980,8 @@ footer ul.social-icons {
   transform: translateY(-10px);
 }
 .founder-details > div .founder-text:hover h3 {
-  color: #FF534F;
-  border-bottom: 1px solid #FF534F;
+  color: #C62F2B;
+  border-bottom: 1px solid #C62F2B;
 }
 .founder-details > div:first-child .founder-text {
   bottom: 25px;
@@ -1011,7 +1011,7 @@ a.allstars-link {
 }
 a.allstars-link:hover {
   transform: translateY(-3px);
-  color: #FF534F;
+  color: #C62F2B;
 }
 
 .partner-network {
@@ -1097,15 +1097,15 @@ a.allstars-link:hover {
   align-items: flex-start;
   gap: 8px;
 }
-.partner-network .partners-list li a h5 {
+.partner-network .partners-list li a h4 {
   display: inline-block;
   line-height: 1;
   transform: perspective(1px) translateZ(0);
   text-decoration: underline;
 }
-.partner-network .partners-list li a h5:hover {
+.partner-network .partners-list li a h4:hover {
   transform: translateY(-1px);
-  color: #FF534F;
+  color: #C62F2B;
 }
 .partner-network .partners-list li p {
   font-size: 12px;
@@ -1120,9 +1120,9 @@ a.allstars-link:hover {
 #our-network .partner-network {
   margin-bottom: 75px;
 }
-#our-network .partner-network h2 {
+#our-network .partner-network h1 {
   margin-bottom: 75px;
-  color: #FF534F;
+  color: #C62F2B;
   text-align: center;
 }
 #our-network .partner-network .partners-list {
@@ -1217,7 +1217,7 @@ a.allstars-link:hover {
   line-height: 1.7;
 }
 .popup p a {
-  color: #FF534F;
+  color: #C62F2B;
 }
 .popup p a:hover {
   color: #313131;
@@ -1266,7 +1266,7 @@ a.allstars-link:hover {
 }
 .apply-popup .popup h2 {
   margin-bottom: 15px;
-  color: #FF534F;
+  color: #C62F2B;
 }
 .apply-popup .popup p {
   font-size: 16px;
@@ -1438,7 +1438,7 @@ img {
 }
 
 a.hover-effect {
-  color: #FF534F;
+  color: #C62F2B;
   font-size: 16px;
   display: inline-block;
   position: relative;
@@ -1450,12 +1450,12 @@ a.hover-effect::after {
   margin: auto;
   height: 3px;
   width: 100%;
-  background: #FF534F;
+  background: #C62F2B;
   transition: width 0.5s ease, background-color 0.5s ease;
 }
 a.hover-effect:hover:after {
   width: 33%;
-  background: #FF534F;
+  background: #C62F2B;
 }
 
 .container-wide {
@@ -1480,7 +1480,7 @@ a.hover-effect:hover:after {
   background-color: #fff;
 }
 
-#main-content {
+.home-main-content {
   padding-bottom: 50px;
   position: absolute;
   left: 0;
@@ -1490,7 +1490,7 @@ a.hover-effect:hover:after {
   transition: bottom 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
 }
 @media (max-width: 768px) {
-  #main-content {
+  .home-main-content {
     padding-bottom: 0;
   }
 }
@@ -1579,7 +1579,7 @@ blockquote::before {
 }
 
 .btn-primary {
-  background-color: #FF534F;
+  background-color: #C62F2B;
   padding: 10px 0px;
   display: inline-block;
   font-weight: 600;
@@ -1596,12 +1596,12 @@ blockquote::before {
   }
 }
 .btn-secondary {
-  border: 2px solid #888;
+  border: 2px solid #666;
   padding: 10px 0px;
   display: inline-block;
   font-weight: 600;
   text-transform: uppercase;
-  color: #888;
+  color: #666;
   border-radius: 40px;
   font-family: "sharp_grotesksemibold_20";
   font-size: 14px;
@@ -1614,7 +1614,7 @@ blockquote::before {
 }
 
 button {
-  background-color: #FF534F;
+  background-color: #C62F2B;
   padding: 15px 25px;
   display: inline-block;
   font-weight: 600;
@@ -1864,7 +1864,7 @@ button {
   }
 }
 .founder-story header .header-wrap .pre-header-link {
-  color: #FF534F;
+  color: #C62F2B;
   text-transform: uppercase;
   margin-bottom: 15px;
   display: inline-block;
@@ -1880,7 +1880,7 @@ button {
   display: block;
 }
 .founder-story header .header-wrap h1 .story-organisation {
-  color: #FF534F;
+  color: #C62F2B;
 }
 .founder-story header .header-wrap .fs-banner-img {
   position: absolute;
@@ -1942,13 +1942,13 @@ span.portfolio-card--notes {
 .portfolio h1 {
     font-size: 32px;
   text-align: center;
-  color: #FF534F;
+  color: #C62F2B;
   margin-bottom: 50px;
 }
 .portfolio h2 {
     font-size: 26px;
   text-align: center;
-  color: #FF534F;
+  color: #C62F2B;
   margin: 50px 0;
 }
 .portfolio-list .portfolio-category-cards {
@@ -1970,7 +1970,7 @@ span.portfolio-card--notes {
   }
 }
 .portfolio-card:hover .portfolio-card--title {
-  color: #FF534F;
+  color: #C62F2B;
 }
 .portfolio-card--logo {
   width: 270px;
@@ -2031,7 +2031,7 @@ span.portfolio-card--notes {
   }
 }
 .past-portfolios h3 {
-  color: #FF534F;
+  color: #C62F2B;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -2099,7 +2099,7 @@ span.portfolio-card--notes {
   }
 }
 #stories .stories-cards .founder-card:hover {
-  border: 2px solid #FF534F;
+  border: 2px solid #C62F2B;
   background-color: #fff;
 }
 #stories .stories-cards .founder-card:hover p {
@@ -2119,8 +2119,8 @@ span.portfolio-card--notes {
     width: 100%;
   }
 }
-#stories .stories-cards .founder-card h4 {
-  color: #FF534F;
+#stories .stories-cards .founder-card h3 {
+  color: #C62F2B;
   margin-bottom: 5px;
 }
 #stories .stories-cards .founder-card p {
@@ -2147,7 +2147,7 @@ span.portfolio-card--notes {
   }
 }
 #faqs h3 {
-  color: #FF534F;
+  color: #C62F2B;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -2186,7 +2186,7 @@ span.portfolio-card--notes {
   top: 20px;
   right: 0px;
   transform-origin: 50% 50%;
-  border: 2px solid #FF534F;
+  border: 2px solid #C62F2B;
   border-radius: 50%;
   box-sizing: border-box;
   display: flex;
@@ -2242,7 +2242,7 @@ input:checked ~ .faq-content {
   font-size: 40px;
   margin-bottom: 75px;
   text-align: center;
-  color: #FF534F;
+  color: #C62F2B;
 }
 @media (max-width: 576px) {
   #apply-now h1 {
@@ -2287,8 +2287,8 @@ input:checked ~ .faq-content {
   margin: 0 auto 25px;
   text-align: center;
 }
-#apply-now .apply-boxes a h3 {
-  color: #FF534F;
+#apply-now .apply-boxes a h2 {
+  color: #C62F2B;
   font-size: 20px;
   line-height: 1.25;
   margin-bottom: 5px;
@@ -2810,7 +2810,7 @@ a.go-back-link {
   line-height: 100%;
   text-align: center;
   text-transform: uppercase;
-  color: #FF534F;
+  color: #C62F2B;
 }
 
 .allstars-footer {
@@ -3394,7 +3394,7 @@ a.go-back-link {
   line-height: 100%;
   text-align: center;
   text-transform: uppercase;
-  color: #FF534F;
+  color: #C62F2B;
 }
 
 .super-large {
@@ -3421,7 +3421,7 @@ a.go-back-link {
   font-size: 14px;
   line-height: 20px;
   /* identical to box height, or 143% */
-  color: #FF534F;
+  color: #C62F2B;
   text-transform: none;
   cursor: pointer;
 }
@@ -3514,7 +3514,7 @@ a.go-back-link {
   font-size: 40px;
   margin-bottom: 75px;
   text-align: center;
-  color: #FF534F;
+  color: #C62F2B;
 }
 @media (max-width: 576px) {
   #founder-resources h1 {
@@ -3561,8 +3561,8 @@ a.go-back-link {
   margin: 0 auto 25px;
   text-align: center;
 }
-#founder-resources .fr-boxes .founder-resource-card h3 {
-  color: #FF534F;
+#founder-resources .fr-boxes .founder-resource-card h2 {
+  color: #C62F2B;
   font-size: 20px;
   line-height: 1.25;
   margin-bottom: 5px;

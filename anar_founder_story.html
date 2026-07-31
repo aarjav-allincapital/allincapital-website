@@ -20,31 +20,33 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/accessibility.css" />
 
 	<title>All In Capital | Founder Stories - Anar</title>
 </head>
 
 <body class="founder-story-page">
+	<a class="skip-link" href="#main-content">Skip to main content</a>
 	<header class="page-header">
 		<div class="container">
-			<a href="#" class="btn btn-secondary main-menu">
+			<button type="button" class="btn btn-secondary main-menu" aria-controls="menu" aria-expanded="false" aria-label="Open menu">
 				<div class="marquee__inner" aria-hidden="true">
 					<span>Menu</span>
 					<span>Menu</span>
 					<span>Menu</span>
 					<span>Menu</span>
 				</div>
-			</a>
-			<a href="#" class="btn btn-secondary close-menu">
+			</button>
+			<button type="button" class="btn btn-secondary close-menu" aria-controls="menu" aria-expanded="true" aria-label="Close menu">
 				<div class="marquee__inner" aria-hidden="true">
 					<span>Close</span>
 					<span>Close</span>
 					<span>Close</span>
 					<span>Close</span>
 				</div>
-			</a>
-			<a href="/"><img src="images/logo.svg" alt="" /></a>
-			<a href="apply_now" class="btn btn-primary apply">
+			</button>
+			<a href="/" aria-label="All In Capital, home"><img src="images/logo.svg" alt="" /></a>
+			<a href="apply_now" class="btn btn-primary apply" aria-label="Apply">
 				<div class="marquee__inner" aria-hidden="true">
 					<span>Apply</span>
 					<span>Apply</span>
@@ -53,7 +55,7 @@
 				</div>
 			</a>
 		</div>
-		<div id="menu">
+		<div id="menu" role="navigation" aria-label="Main">
 			<div class="menu">
 				<ul class="main-links">
 					<li><a href="portfolio">Portfolio</a></li>
@@ -63,18 +65,18 @@
 					<li><a href="allstars">AllStars</a></li>
 				</ul>
 				<ul class="social-icons">
-					<li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank"><img
+					<li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank" aria-label="All In Capital on Instagram"><img
 								src="images/icon-instagram.svg" alt="" /></a></li>
-					<li><a href="https://twitter.com/All_IN_Capital" target="_blank"><img src="images/icon-twitter.svg"
+					<li><a href="https://twitter.com/All_IN_Capital" target="_blank" aria-label="All In Capital on X (Twitter)"><img src="images/icon-twitter.svg"
 								alt="" /></a></li>
-					<li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank"><img
+					<li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank" aria-label="All In Capital on LinkedIn"><img
 								src="images/icon-linkedin.svg" alt="" /></a></li>
 				</ul>
 			</div>
 		</div>
 	</header>
 
-	<main>
+	<main id="main-content" tabindex="-1">
 		<article class="founder-story">
 			<header>
 				<div class="header-wrap">
@@ -145,7 +147,7 @@
 					have on your side - go get Kushal!</p>
 
 				<p>- <a href="https://www.linkedin.com/in/nishankj/?originalSubdomain=in" target="_blank"
-						class="bold-link">Nishank Jain</a>, Co-Founder and CEO, Anar.biz</p>
+						class="bold-link" aria-label="Nishank Jain on LinkedIn">Nishank Jain</a>, Co-Founder and CEO, Anar.biz</p>
 			</article>
 		</article>
 
@@ -160,7 +162,7 @@
 									<img src="images/card-img-01@1x.png"
 										srcset="images/card-img-01@3x.png 510w, images/card-img-01@2x.png 340w, images/card-img-01@1x.png 170w"
 										type="image/png" alt="a" sizes="170px" />
-									<h4>MasterChow</h4>
+									<h3>MasterChow</h3>
 									<p>Helped connect us to the lead investors of both our rounds!</p>
 								</div>
 							</a>
@@ -170,7 +172,7 @@
 									<img src="images/card-img-02@1x.png"
 										srcset="images/card-img-02@3x.png 510w, images/card-img-02@2x.png 340w, images/card-img-02@1x.png 170w"
 										type="image/png" alt="" sizes="170px" />
-									<h4>MailModo</h4>
+									<h3>MailModo</h3>
 									<p>From introduction to leading the pre-seed round, all in just 2 weeks</p>
 								</div>
 							</a>
@@ -180,7 +182,7 @@
 									<img src="images/card-img-03@1x.png"
 										srcset="images/card-img-03@3x.png 510w, images/card-img-03@2x.png 340w, images/card-img-03@1x.png 170w"
 										type="image/png" alt="" sizes="170px" />
-									<h4>Wint Wealth</h4>
+									<h3>Wint Wealth</h3>
 									<p>Helping at every step of the journey</p>
 								</div>
 							</a>
@@ -190,7 +192,7 @@
 									<img src="images/card-img-04@1x.png"
 										srcset="images/card-img-04@3x.png 510w, images/card-img-04@2x.png 340w, images/card-img-04@1x.png 170w"
 										type="image/png" alt="" sizes="170px" />
-									<h4>Anar</h4>
+									<h3>Anar</h3>
 									<p>Smallest cheque turned out to be the largest value-add!</p>
 								</div>
 							</a>
@@ -206,11 +208,11 @@
 
 			<footer class="container">
 				<ul class="social-icons">
-					<li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank"><img
+					<li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank" aria-label="All In Capital on Instagram"><img
 								src="images/icon-instagram.svg" alt="" /></a></li>
-					<li><a href="https://twitter.com/All_IN_Capital" target="_blank"><img src="images/icon-twitter.svg"
+					<li><a href="https://twitter.com/All_IN_Capital" target="_blank" aria-label="All In Capital on X (Twitter)"><img src="images/icon-twitter.svg"
 								alt="" /></a></li>
-					<li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank"><img
+					<li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank" aria-label="All In Capital on LinkedIn"><img
 								src="images/icon-linkedin.svg" alt="" /></a></li>
 				</ul>
 				<p>&copy; Copyright 2022, Allin Capital LLC</p>
@@ -223,6 +225,15 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/lottie.min.js"></script>
 	<script src="js/common.js"></script>
+	<script src="js/accessibility.js"></script>
+	<!-- EnableUser accessibility widget -->
+	<script>
+		window.ENABLESTACK_CONFIG = {
+			colors: { primary: '#C62F2B' },
+			widgetPosition: { side: 'left' }
+		};
+	</script>
+	<script src="js/enablestack-widget.js"></script>
 </body>
 
 </html>
