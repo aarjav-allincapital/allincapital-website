@@ -18,16 +18,18 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/accessibility.css" />
 
 	<title>All In Capital | Apply Now</title>
 </head>
 
 <body class="portfolio-page">
+	<a class="skip-link" href="#main-content">Skip to main content</a>
 	<header class="page-header">
 		<div class="container centered">
-			<a href="/"><img src="images/logo.svg" alt="" /></a>
+			<a href="/" aria-label="All In Capital, home"><img src="images/logo.svg" alt="" /></a>
 		</div>
-		<div id="menu">
+		<div id="menu" role="navigation" aria-label="Main">
 			<div class="menu">
 				<ul class="main-links">
 					<li><a href="portfolio">Portfolio</a></li>
@@ -37,25 +39,25 @@
 					<li><a href="allstars">AllStars</a></li>
 				</ul>
 				<ul class="social-icons">
-					<li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank"><img
+					<li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank" aria-label="All In Capital on Instagram"><img
 								src="images/icon-instagram.svg" alt="" /></a></li>
-					<li><a href="https://twitter.com/All_IN_Capital" target="_blank"><img src="images/icon-twitter.svg"
+					<li><a href="https://twitter.com/All_IN_Capital" target="_blank" aria-label="All In Capital on X (Twitter)"><img src="images/icon-twitter.svg"
 								alt="" /></a></li>
-					<li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank"><img
+					<li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank" aria-label="All In Capital on LinkedIn"><img
 								src="images/icon-linkedin.svg" alt="" /></a></li>
 				</ul>
 			</div>
 		</div>
 	</header>
 
-	<main>
+	<main id="main-content" tabindex="-1">
 		<div id="apply-now">
 			<h1>Three Ways to Pitch us</h1>
 			<div class="apply-boxes">
 				<a href="#apply-01" rel="modal:open">
 					<span class="apply-img"><img src="images/apply-img-01.svg" alt="" /></span>
 					<div class="apply-box">
-						<h3>Reaching out to our Founder Angel Venture Partners</h3>
+						<h2>Reaching out to our Founder Angel Venture Partners</h2>
 						<p>Connect with and convince any of the Founder Angels from our Network to invest in your
 							startup. Even as less as $ 5,000. We will then most likely invest with them.</p>
 					</div>
@@ -71,7 +73,7 @@
 				<a href="#apply-02" rel="modal:open">
 					<span class="apply-img"><img src="images/apply-img-02.svg" alt="" /></span>
 					<div class="apply-box">
-						<h3>Reaching out to our <br />portfolio founders</h3>
+						<h2>Reaching out to our <br />portfolio founders</h2>
 						<p>We love our portfolio founders, and if you happen know any of these 100+ teams, you can ping
 							them and ask them to introduce you to us.</p>
 					</div>
@@ -87,7 +89,7 @@
 				<a href="#apply-03" rel="modal:open">
 					<span class="apply-img"><img src="images/apply-img-03.svg" alt="" /></span>
 					<div class="apply-box">
-						<h3>Applying via our <br />Application Form</h3>
+						<h2>Applying via our <br />Application Form</h2>
 						<p>We typically see 500+ deals every month and this form allows us to ensure that we give each
 							and every founder a fair shot. Each and every form is meticulously checked.</p>
 					</div>
@@ -174,7 +176,7 @@
 					<p>If you want to improve your odds of a YES from All In Capital you can reach out to any of the
 						Venture Partners listed on the website and if you can convince them to invest even $5K in your
 						startup, we will most likely invest with them. Really!</p>
-					<a href="our_network" class="read-more btn-primary btn width_01">
+					<a href="our_network" class="read-more btn-primary btn width_01" aria-label="See the Network">
 						<div class="marquee__inner" aria-hidden="true">
 							<span>See the Network</span>
 							<span>See the Network</span>
@@ -183,7 +185,7 @@
 						</div>
 					</a>
 				</div>
-				<a href="#" rel="modal:close" class="close-icon"><img src="images/icon-close.svg" alt="" /></a>
+				<a href="#" rel="modal:close" class="close-icon" aria-label="Close dialog"><img src="images/icon-close.svg" alt="" /></a>
 			</div>
 		</div>
 
@@ -197,7 +199,7 @@
 						benefit of taking this approach is that you can ref check us and learn more about how helpful we
 						are from our past portfolio. </p>
 					<a href="https://www.notion.so/Portfolio-Companies-400a8bab79f64d87a6eaef8efdf03ae7" target="_blank"
-						class="read-more btn-primary btn width_02">
+						class="read-more btn-primary btn width_02" aria-label="See Our Portfolio">
 						<div class="marquee__inner" aria-hidden="true">
 							<span>See Our Portfolio</span>
 							<span>See Our Portfolio</span>
@@ -206,7 +208,7 @@
 						</div>
 					</a>
 				</div>
-				<a href="#" rel="modal:close" class="close-icon"><img src="images/icon-close.svg" alt="" /></a>
+				<a href="#" rel="modal:close" class="close-icon" aria-label="Close dialog"><img src="images/icon-close.svg" alt="" /></a>
 			</div>
 		</div>
 
@@ -216,7 +218,7 @@
 					<h2>Applying via our Application Form</h2>
 					<div class="mrgn">
 						<a href="https://docs.google.com/forms/d/e/1FAIpQLScG-6BUoqKTN90KuyamN8U5Xrn0sseL3bYsIrL168A1rsDy0w/viewform" target="_blank" data-tf-popup="m0XdhMlc" data-tf-iframe-props="title=Apply Here - All IN"
-							data-tf-medium="snippet" class="read-more btn-primary btn width_03">
+							data-tf-medium="snippet" class="read-more btn-primary btn width_03" aria-label="Go to application form">
 							<div class="marquee__inner" aria-hidden="true">
 								<span>Go to application form</span>
 								<span>Go to application form</span>
@@ -244,7 +246,7 @@
 							target="_blank">See the Application Form questions</a></p>
 
 				</div>
-				<a href="#" rel="modal:close" class="close-icon"><img src="images/icon-close.svg" alt="" /></a>
+				<a href="#" rel="modal:close" class="close-icon" aria-label="Close dialog"><img src="images/icon-close.svg" alt="" /></a>
 			</div>
 		</div>
 	</div>
@@ -254,6 +256,15 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/lottie.min.js"></script>
 	<script src="js/common.js"></script>
+	<script src="js/accessibility.js"></script>
+	<!-- EnableUser accessibility widget -->
+	<script>
+		window.ENABLESTACK_CONFIG = {
+			colors: { primary: '#C62F2B' },
+			widgetPosition: { side: 'left' }
+		};
+	</script>
+	<script src="js/enablestack-widget.js"></script>
 </body>
 
 </html>

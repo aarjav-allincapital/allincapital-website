@@ -1,0 +1,312 @@
+/* Accessibility styles. Loaded after style.css so it wins the cascade. */
+
+:root {
+  --allin-red-on-dark: #ff534f; /* brand red for dark panels; #C62F2B is too dark there */
+  --a11y-focus: #0b57d0;
+  --a11y-focus-contrast: #ffffff;
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip link */
+.skip-link {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -120%);
+  z-index: 10000;
+  padding: 12px 24px;
+  background: #1f1f1f;
+  color: #ffffff;
+  font-family: "sharp_grotesksemibold_20", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  border: 2px solid #ffffff;
+  border-radius: 0 0 8px 8px;
+  transition: transform 150ms ease-in-out;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translate(-50%, 0);
+  outline: 3px solid var(--a11y-focus);
+  outline-offset: 2px;
+}
+
+/* Focusable for the skip link, but no page-sized ring */
+#main-content:focus {
+  outline: none;
+}
+
+/* Clears the fixed header on a plain anchor jump */
+#main-content {
+  scroll-margin-top: 110px;
+}
+
+/* Focus ring: white halo + blue outline, so it shows on light and dark */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+label:focus-visible,
+summary:focus-visible,
+[tabindex]:not([tabindex="-1"]):focus-visible {
+  outline: 3px solid var(--a11y-focus);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px var(--a11y-focus-contrast);
+  border-radius: 3px;
+}
+
+/* Icon-only links sit tight together — round ring, more offset */
+ul.social-icons a:focus-visible,
+ul.social-icon a:focus-visible,
+.close-icon:focus-visible,
+.header-logo:focus-visible,
+a[aria-label]:has(> img:only-child):focus-visible {
+  outline-offset: 4px;
+  border-radius: 50%;
+}
+
+@supports not selector(:focus-visible) {
+  a:focus,
+  button:focus,
+  input:focus,
+  select:focus,
+  textarea:focus,
+  [tabindex]:not([tabindex="-1"]):focus {
+    outline: 3px solid var(--a11y-focus);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 3px var(--a11y-focus-contrast);
+  }
+}
+
+/* FAQ toggle is an opacity:0 checkbox — show its focus on the label.
+   Inset because .faq is overflow:hidden. */
+.faq input[type="checkbox"]:focus-visible + .faq-label,
+.faq input[type="checkbox"]:focus + .faq-label {
+  outline: 3px solid var(--a11y-focus);
+  outline-offset: -3px;
+  box-shadow: inset 0 0 0 6px var(--a11y-focus-contrast);
+  border-radius: 3px;
+}
+
+/* Underline nav + footer links */
+#menu a,
+#menu ul.main-links a,
+.page-header #menu a,
+footer a,
+.fnf-footer a,
+.allstars-footer a,
+.footer a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+
+/* ...except icon-only links, which have no text to underline */
+#menu ul.social-icons a,
+footer ul.social-icons a,
+footer ul.social-icon a,
+.fnf-footer a:has(img:only-child),
+.allstars-footer a:has(img:only-child),
+footer a:has(img:only-child),
+#menu a:has(img:only-child) {
+  text-decoration: none;
+}
+
+/* Brighter red on the dark panels for contrast */
+.page-header #menu a,
+.page-header #menu,
+.founder-story header .header-wrap .pre-header-link,
+.founder-story header .header-wrap .story-organisation,
+body.fnf-body .pre-header-link,
+body.allstars-body .pre-header-link,
+.strike,
+.apply-here .strike,
+a.strike {
+  color: var(--allin-red-on-dark);
+}
+
+/* Lighter grey for the outline button on dark pages */
+body.home-bg .btn-secondary,
+body.fnf-body .btn-secondary,
+body.allstars-body .btn-secondary,
+body.founder-story-page .btn-secondary {
+  color: #949494;
+  border-color: #949494;
+}
+
+/* Heading tags were corrected for the outline — keep the original sizes */
+.founder-stories-cards .founder-card h3,
+#stories .stories-cards .founder-card h3 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#our-network .partner-network h1 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+/* Partner names are h2 on our_network, h4 on home */
+.partner-network .partners-list li a h2,
+.partner-network .partners-list li a h4 {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  transform: perspective(1px) translateZ(0);
+  text-decoration: underline;
+}
+
+.partner-network .partners-list li a h2:hover,
+.partner-network .partners-list li a h4:hover {
+  transform: translateY(-1px);
+  color: #c62f2b;
+}
+
+@media (max-width: 768px) {
+  #our-network .partner-network h1 {
+    font-size: 32px;
+  }
+}
+
+/* Menu toggles and hero arrow are <button> now — drop the default button chrome */
+button.btn-secondary,
+button.btn-secondary:hover,
+button.btn-secondary:focus {
+  background-color: transparent;
+  background: transparent;
+  cursor: pointer;
+}
+
+button.arrow-move {
+  background: transparent;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  display: inline-block;
+  line-height: 0;
+}
+
+button.btn,
+button.btn-primary,
+button.btn-secondary {
+  font: inherit;
+  font-family: "sharp_grotesksemibold_20", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  button.btn,
+  button.btn-primary,
+  button.btn-secondary {
+    font-size: 12px;
+  }
+}
+
+/* Carousel pause/play button */
+.a11y-motion-region {
+  position: relative;
+}
+
+.a11y-motion-toggle {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 20;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  background-color: rgba(31, 31, 31, 0.92);
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  transition: background-color 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.a11y-motion-toggle:hover {
+  background-color: #000000;
+  transform: scale(1.06);
+}
+
+.a11y-motion-toggle:focus-visible {
+  outline: 3px solid var(--a11y-focus-contrast);
+  outline-offset: 3px;
+}
+
+.a11y-motion-toggle svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  fill: currentColor;
+  pointer-events: none;
+}
+
+/* Show one glyph at a time */
+.a11y-motion-toggle .a11y-icon-play {
+  display: none;
+}
+
+.a11y-motion-toggle[aria-pressed="true"] .a11y-icon-play {
+  display: block;
+}
+
+.a11y-motion-toggle[aria-pressed="true"] .a11y-icon-pause {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .a11y-motion-toggle {
+    right: 12px;
+    bottom: 12px;
+  }
+}
+
+.modal[role="dialog"] {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .skip-link {
+    transition: none;
+  }
+}
+
+/* Keep the widget launcher above page furniture */
+#enablestack-widget-host,
+.enablestack-widget-host {
+  z-index: 2147483000;
+}

@@ -24,11 +24,13 @@
 	<link rel="stylesheet" href="css/double_slider.css" />
 	<link rel="stylesheet" href="css/allstars_search_bar.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/accessibility.css" />
 	<title>AllStars | All In Capital </title>
 </head>
 
 <body class="home-bg allstars-body" id="allstars-body">
-	<main-content>
+	<a class="skip-link" href="#main-content">Skip to main content</a>
+	<div class="page-main-wrapper">
 		<div class="allstars-loading allstars-view active " id="allstars-loading-view">
 			<!-- <img src="images/logo.gif" alt="All In" class="loader-logo" /> -->
 			<div class="logo large allstars_logo_large">
@@ -44,30 +46,30 @@
 			<div class="wrapper">
 				<header class="allstars-page-header page-header " id="navbar">
 					<div class="container">
-						<a href="#" class="btn btn-secondary main-menu">
+						<button type="button" class="btn btn-secondary main-menu" aria-controls="menu" aria-expanded="false" aria-label="Open menu">
 							<div class="marquee__inner" aria-hidden="true">
 								<span>Menu</span>
 								<span>Menu</span>
 								<span>Menu</span>
 								<span>Menu</span>
 							</div>
-						</a>
-						<a href="#" class="btn btn-secondary close-menu">
+						</button>
+						<button type="button" class="btn btn-secondary close-menu" aria-controls="menu" aria-expanded="true" aria-label="Close menu">
 							<div class="marquee__inner" aria-hidden="true">
 								<span>Close</span>
 								<span>Close</span>
 								<span>Close</span>
 								<span>Close</span>
 							</div>
-						</a>
-						<a href="/" class="allstars-header-logo header-logo">
+						</button>
+						<a href="/" class="allstars-header-logo header-logo" aria-label="All In Capital, home">
 							<div class="logo large allstars_logo_large">
 								<img src="images/logo.gif" alt="All In" class="logo allin-allstars-logo" />
 								<img src="images/allstars/allstars_logo.svg" alt="All In" class="logo large" />
 								<!-- <img src="images/allstars/allstars_logo.svg" alt="" /> -->
 							</div>
 						</a>
-						<button class="btn btn-primary apply allstars-apply" id="logout-button">
+						<button class="btn btn-primary apply allstars-apply" id="logout-button" aria-label="Logout">
 							<div class="marquee__inner" aria-hidden="true">
 								<span>Logout</span>
 								<span>Logout</span>
@@ -76,7 +78,7 @@
 							</div>
 						</button>
 					</div>
-					<div id="menu">
+					<div id="menu" role="navigation" aria-label="Main">
 						<div class="menu" style="padding-top: 120px;">
 							<ul class="main-links">
 								<li><a href="portfolio">Portfolio</a></li>
@@ -87,10 +89,10 @@
 							</ul>
 							<ul class="social-icons">
 								<li><a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y="
-										target="_blank"><img src="images/icon-instagram.svg" alt="" /></a></li>
-								<li><a href="https://twitter.com/All_IN_Capital" target="_blank"><img
+										target="_blank" aria-label="All In Capital on Instagram"><img src="images/icon-instagram.svg" alt="" /></a></li>
+								<li><a href="https://twitter.com/All_IN_Capital" target="_blank" aria-label="All In Capital on X (Twitter)"><img
 											src="images/icon-twitter.svg" alt="" /></a></li>
-								<li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank"><img
+								<li><a href="https://www.linkedin.com/company/all-india-capital/" target="_blank" aria-label="All In Capital on LinkedIn"><img
 											src="images/icon-linkedin.svg" alt="" /></a></li>
 							</ul>
 						</div>
@@ -98,7 +100,7 @@
 				</header>
 			</div>
 			<div class="content">
-				<div class="allstars__hero">
+				<div class="allstars__hero" role="region" aria-label="Introduction">
 					<div class="background-image">
 						<div class="background-image-left part-image">
 							<img src="images/allstars/allstars_hero_lines_left.svg" alt="">
@@ -135,7 +137,7 @@
 						<!-- <img src="images/arrow.png" alt="" class="arrow-move" /> -->
 					</section>
 				</div>
-				<main class="allstars-main-content main-content">
+				<main class="allstars-main-content main-content" id="main-content" tabindex="-1">
 
 					<div class="search-result-info search-result-info__mobile">
 						<span></span>
@@ -295,13 +297,13 @@
 								<img src="images/allstars/allstars_fulllogo.svg" alt="">
 							</div>
 							<div class="allstars-footer-social-icons">
-								<a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank">
+								<a href="https://instagram.com/allin_capital?igshid=YmMyMTA2M2Y=" target="_blank" aria-label="All In Capital on Instagram">
 									<img src="images/allstars/footer-instagram.svg" alt="instagram">
 								</a>
-								<a href="https://twitter.com/All_IN_Capital" class="footer-twitter" target="_blank">
+								<a href="https://twitter.com/All_IN_Capital" class="footer-twitter" target="_blank" aria-label="All In Capital on X (Twitter)">
 									<img src="images/allstars/footer-twitter.svg" alt="twitter">
 								</a>
-								<a href="https://www.linkedin.com/company/all-india-capital/" target="_blank">
+								<a href="https://www.linkedin.com/company/all-india-capital/" target="_blank" aria-label="All In Capital on LinkedIn">
 									<img src="images/allstars/footer-linkedin.svg" alt="linkedin">
 								</a>
 							</div>
@@ -315,7 +317,7 @@
 					<div class="angel-card-modal-popup">
 						<div class="angel-details">
 							<div class="allstars-modal-navbar only-mobile">
-								<a href="/" class="allstars-header-logo header-logo">
+								<a href="/" class="allstars-header-logo header-logo" aria-label="All In Capital, home">
 									<div class="logo large allstars_logo_large">
 										<img src="images/logo.gif" alt="All In" class="logo allin-allstars-logo" />
 										<img src="images/allstars/allstars_logo.svg" alt="All In" class="logo large" />
@@ -419,7 +421,7 @@
 			</div>
 		</div>
 
-	</main-content>
+	</div>
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
@@ -430,6 +432,15 @@
 	<!-- <script src="js/allstars/double_slider.js"></script> -->
 	<script src="js/build/allstars.js?v=9" type="module"></script>
 	<!-- <script src="js/home.js"></script> -->
+	<script src="js/accessibility.js"></script>
+	<!-- EnableUser accessibility widget -->
+	<script>
+		window.ENABLESTACK_CONFIG = {
+			colors: { primary: '#C62F2B' },
+			widgetPosition: { side: 'left' }
+		};
+	</script>
+	<script src="js/enablestack-widget.js"></script>
 </body>
 
 </html>
