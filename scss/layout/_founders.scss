@@ -18,12 +18,12 @@
 }    
 
 .founders {
-    margin-bottom: 55px;
+    margin-bottom: 125px;
     margin-top: 200px;
 
     @media (max-width: 768px) { 
         margin-top: 220px;
-        margin-bottom: 40px;
+        margin-bottom: 100px;
     }
 
     .container {
@@ -155,66 +155,5 @@
             }
         }
 
-    }
-}
-
-.work-companies-band {
-    display: flex;
-    justify-content: center;
-    padding: 0 25px 80px;
-}
-
-.work-companies-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    width: min(420px, 100%);
-    padding: 28px 32px;
-    border-radius: 24px;
-    background: #f6f6f6;
-    color: $primary;
-    text-align: center;
-    text-decoration: none;
-    transition: transform 300ms, background-color 300ms;
-
-    &:hover {
-        transform: translateY(-6px);
-        background: #f0f0f0;
-
-        .work-companies-title {
-            color: $secondary;
-            border-bottom-color: $secondary;
-        }
-    }
-}
-
-.work-companies-kicker {
-    font-size: 12px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    font-family: 'sharp_grotesksemibold_20';
-    color: $secondary;
-}
-
-.work-companies-title {
-    font-size: 24px;
-    line-height: 1.2;
-    font-family: 'sharp_grotesksemibold_20';
-    border-bottom: 1px solid $primary;
-}
-
-.work-companies-meta {
-    font-size: 14px;
-    font-family: 'sharp_groteskmedium_20';
-}
-
-@media (max-width: 576px) {
-    .work-companies-band {
-        padding-bottom: 60px;
-    }
-
-    .work-companies-title {
-        font-size: 20px;
     }
 }
