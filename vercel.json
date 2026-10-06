@@ -1,6 +1,21 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "missing": [
+        {
+          "type": "host",
+          "value": "^(?:(?:www\\.)?allincapital\\.vc|localhost(?::\\d+)?|127\\.0\\.0\\.1(?::\\d+)?|allincapitalwebsite(?:-[a-z0-9-]+)?-all-in-capital\\.vercel\\.app)$"
+        }
+      ],
+      "mitigate": {
+        "action": "deny"
+      }
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -14,8 +29,20 @@
           "value": "DENY"
         },
         {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors 'none';"
+          "value": "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self' https://superdm.com https://docs.google.com; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; font-src 'self' data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; img-src 'self' data: blob: https:; media-src 'self'; connect-src 'self' https://allin.allstars.vc https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://api.dictionaryapi.dev; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://player.vimeo.com; upgrade-insecure-requests"
         }
       ]
     }
