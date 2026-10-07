@@ -864,6 +864,9 @@ footer ul.social-icons {
     margin-top: 50px;
     margin-bottom: 0px !important;
 }
+.founder-details.founderTeam-details > div:nth-child(odd) {
+    clear: left;
+}
 .founder-details.founderTeam-details > div .founder-text {
     position: static;
     text-align: left;

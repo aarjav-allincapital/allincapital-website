@@ -6,6 +6,9 @@
     width: 50%;
     margin-top: 50px;
     margin-bottom: 0px !important;
+    &:nth-child(odd) {
+        clear: left;
+    }
     .founder-text {
         position: static;
         text-align: left;
