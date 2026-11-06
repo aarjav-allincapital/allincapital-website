@@ -4,6 +4,13 @@
   "trailingSlash": false,
   "routes": [
     {
+      "src": "/allstars",
+      "status": 308,
+      "headers": {
+        "Location": "https://allstars.allincapital.vc"
+      }
+    },
+    {
       "src": "/(.*)",
       "missing": [
         {
